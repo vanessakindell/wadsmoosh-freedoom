@@ -1,0 +1,289 @@
+//
+// doom-id1 -- first episode
+//
+
+map MAP01
+{
+    episode = clear
+    episode = "M_EPI1", "The Vulcan Abyss", "1"
+    label = "E1M1"
+    levelpic = "XWILV00"
+    levelname = "Scar Gate"
+    author = "Samuel Villarreal"
+    skytexture =  "SKYX1"
+    music = "D_WELCOM"
+    exitanim = "XWINTER0"
+    enteranim = "XWINTER0"
+    kex_finishedtaskid = "id1_1_1"
+}
+
+map MAP02
+{
+    label = "E1M2"
+    levelpic = "XWILV01"
+    levelname = "Sanguine Wastes"
+    author = "Xaser Acheron"
+    skytexture =  "SKYX3"
+    music = "D_SHORES"
+    nextsecret = "MAP15"
+    exitanim = "XWINTER0"
+    enteranim = "XWINTER0"
+    kex_finishedtaskid = "id1_1_2"
+}
+
+map MAP03
+{
+    label = "E1M3"
+    levelpic = "XWILV02"
+    levelname = "Spirit Drains"
+    author = "Thomas Carter"
+    skytexture =  "SKYX3"
+    music = "D_BILGE"
+    exitanim = "XWINTER0"
+    enteranim = "XWINTER0"
+    kex_finishedtaskid = "id1_1_3"
+}
+
+map MAP04
+{
+    label = "E1M4"
+    levelpic = "XWILV03"
+    levelname = "Descending Inferno"
+    author = "Samuel Villarreal"
+    skytexture =  "SKYX3"
+    music = "D_REGARD"
+    exitanim = "XWINTER0"
+    enteranim = "XWINTER0"
+    kex_finishedtaskid = "id1_1_4"
+}
+
+map MAP05
+{
+    label = "E1M5"
+    levelname = "Creeping Hate"
+    levelpic = "XWILV04"
+    author = "Samuel Villarreal"
+    skytexture =  "SKYZ4"
+    music = "D_LAUGH"
+    exitanim = "XWINTER0"
+    enteranim = "XWINTER0"
+    kex_finishedtaskid = "id1_1_5"
+}
+
+map MAP06
+{
+    label = "E1M6"
+    levelpic = "XWILV05"
+    levelname = "The Coiled City"
+    author = "Xaser Acheron"
+    skytexture =  "SKYX4"
+    music = "D_CLOUDY"
+    intertext = clear
+    exitanim = "XWINTER0"
+    enteranim = "XWINTER0"
+    kex_finishedtaskid = "id1_1_6"
+}
+
+map MAP07
+{
+    label = "E1M7"
+    levelpic = "XWILV06"
+    levelname = "Forfeited Salvation"
+    author = "Samuel Villarreal"
+    skytexture =  "SKYX4"
+    music = "D_TACTIC"
+    bossaction = clear
+    exitanim = "XWINTER0"
+    enteranim = "XWINTER0"
+    kex_intertextlocid = "INTERTEXT_ID1_E1"
+    kex_finishedtaskid = "id1_1_7"
+    kex_episodefinishedactivityid = "start_id1"
+    endpic = "CREDIT"
+    intermusic = "D_SHORES"
+    interbackdrop = "SLIME20"
+    intertext =
+        "Damn.",
+        "",
+        "The oldest trap in the book, and you fell",
+        "right into it. Even the best make mistakes.",
+        "",
+        "As you fade into unconsciousness, an",
+        "epiphany surges through the pain: the base",
+        "is beyond recovery, and the UAC knew it.",
+        "Why send their best agent on a suicide run?",
+        "There's something else at stake. What are",
+        "they hiding on this barren, bleeding rock?",
+        "",
+        "As they toss your half-conscious form into",
+        "a rusty iron cage, you vow to find answers.",
+        "",
+        "Time to carve a legacy of your own."
+}
+
+map MAP15
+{
+    label = "E1M0"
+    levelpic = "XWILV07"
+    levelname = "Ash Mill"
+    author = "Xaser Acheron"
+    skytexture =  "SKYX3"
+    music = "D_OPENIN"
+    next = "MAP03"
+    exitanim = "XWINTER0"
+    enteranim = "XWINTER0"
+}
+
+//
+// doom-id1 -- second episode
+//
+
+map MAP08
+{
+    label = "E2M1"
+    levelpic = "XWILV10"
+    episode = "M_EPI2", "Counterfeit Eden", "2"
+    levelname = "Second Coming"
+    author = "Ethan Watson & Xaser Acheron"
+    skytexture =  "SKYX2"
+    music = "D_BONK"
+    exitanim = "XWINTER1"
+    enteranim = "XWINTER1"
+    kex_finishedtaskid = "id1_2_1"
+}
+
+map MAP09
+{
+    label = "E2M2"
+    levelpic = "XWILV11"
+    levelname = "Falsehood"
+    author = "Samuel Villarreal"
+    skytexture =  "SKYX2"
+    music = "D_DRIVER"
+    exitanim = "XWINTER1"
+    enteranim = "XWINTER1"
+    kex_finishedtaskid = "id1_2_2"
+}
+
+map MAP10
+{
+    label = "E2M3"
+    levelpic = "XWILV12"
+    levelname = "Dis Union"
+    author = "Ethan Watson"
+    skytexture =  "SKYX2"
+    music = "D_WIZARD"
+    nextsecret = "MAP16"
+    exitanim = "XWINTER1"
+    enteranim = "XWINTER1"
+    kex_finishedtaskid = "id1_2_3"
+}
+
+map MAP11
+{
+    label = "E2M4"
+    levelpic = "XWILV13"
+    levelname = "Echoes of Pain"
+    author = "Samuel Villarreal"
+    skytexture =  "SKYX2"
+    music = "D_DEJAVU"
+    intertext = clear
+    exitanim = "XWINTER1"
+    enteranim = "XWINTER1"
+    kex_finishedtaskid = "id1_2_4"
+}
+
+map MAP12
+{
+    label = "E2M5"
+    levelpic = "XWILV14"
+    levelname = "The Rack"
+    author = "Samuel Villarreal"
+    skytexture =  "SKYX4"
+    music = "D_DISGUS"
+    exitanim = "XWINTER1"
+    enteranim = "XWINTER1"
+    kex_finishedtaskid = "id1_2_5"
+}
+
+map MAP13
+{
+    label = "E2M6"
+    levelpic = "XWILV15"
+    levelname = "Soul Silo"
+    author = "Kevin Dunlop"
+    skytexture =  "SKYX4"
+    music = "D_VESPER"
+    bossaction = clear
+    bossaction = Cyberdemon, 23, 666
+    exitanim = "XWINTER1"
+    enteranim = "XWINTER1"
+    kex_finishedtaskid = "id1_2_6"
+}
+
+map MAP14
+{
+    label = "E2M7"
+    levelpic = "XWILV16"
+    levelname = "Brink"
+    author = "Xaser Acheron"
+    skytexture =  "SKYX5"
+    music = "D_SKELET"
+    bossaction = clear
+    bossaction = Deh_Actor_156, 23, 666 // TyrantBoss1
+    bossaction = Deh_Actor_157, 23, 667 // TyrantBoss2
+    exitanim = "XWINTER1"
+    enteranim = "XWINTER1"
+    kex_intertextlocid = "INTERTEXT_ID1_E2"
+    kex_achievementid = 33
+    kex_finishedtaskid = "id1_2_7"
+    kex_episodefinishedactivityid = "start_id1"
+    endcast = true
+    intermusic = "D_SHORES"
+    interbackdrop = "FLOOR9_2"
+    intertext =
+        "Tick. Tock. Tick. Tock.",
+        "",
+        "The air is thick with blood and irony.",
+        "You've turned the UAC's final gambit against",
+        "them, but will they have the last laugh?",
+        "",
+        "Three. Two. One.",
+        "",
+        "Then, with a snap and a puff of ozone, the",
+        "portal winks out of existence, its crimson",
+        "maelstrom yielding to blessed silence.",
+        "",
+        "Zero.",
+        "",
+        "It's done. You've rid the world of two evils",
+        "in a single violent stroke... and survived.",
+        "Legacy can wait. You ain't finished yet."
+}
+
+map MAP16
+{
+    label = "E2M0"
+    levelpic = "XWILV17"
+    levelname = "Panopticon"
+    author = "Xaser Acheron"
+    skytexture =  "SKYX2"
+    music = "D_HELFOR"
+    next = "MAP11"
+    exitanim = "XWINTER1"
+    enteranim = "XWINTER1"
+}
+
+//
+// doom-id1 -- test maps
+//
+
+map MAP99
+{
+    label = "???"
+    levelname = "Test Map Please Ignore"
+    author = "nobody, this map just appeared out of thin air like a damn ghost"
+    skytexture =  "SKYX2"
+    music = "D_BLANK"
+    next = "MAP99"
+    kex_nolevelselect = true
+}
