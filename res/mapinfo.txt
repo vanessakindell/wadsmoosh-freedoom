@@ -154,13 +154,13 @@ episode NS_E4M1
 	optional
 }
 
-episode ID1_E1M1
+episode ID1_MAP01
 {
 	name = "The Vulcan Abyss"
 	optional
 }
 
-episode ID1_E2M1
+episode ID1_MAP08
 {
 	name = "Counterfeit Eden"
 	optional

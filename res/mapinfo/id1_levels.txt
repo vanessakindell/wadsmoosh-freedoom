@@ -97,7 +97,7 @@ map ID1_MAP07 "Forfeited Salvation"
 {
     levelnum = 7
     next = "EndGame1"
-    secretnext = EndGame1"
+    secretnext = "EndGame1"
     titlepatch = "XWILV06"
     sky1 = "SKYX4"
     cluster = 55
