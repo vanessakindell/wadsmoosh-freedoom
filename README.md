@@ -104,6 +104,9 @@ Freedoom Phase 1 & Phase 2 (version 0.13.o supported only):
 https://github.com/freedoom/freedoom/releases/tag/v0.13.0
 Use `freedoom1.wad` and `freedoom2.wad`
 
+Legacy of Rust:
+This is the retail release. It comes with the 2024 Doom I & Doom II remaster. After you install it, you can use the `ID1.WAD` it creates.
+
 Doom 3DO Soundtrack:
 https://www.moddb.com/games/doom/addons/doom-3do-music
 Use `doom3do.wad`
