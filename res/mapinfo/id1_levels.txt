@@ -263,7 +263,7 @@ cluster x2
 {
     flat = "FLOOR9_2"
     music = "D_SHORES"
-    intertext = "Tick. Tock. Tick. Tock.",
+    exittext = "Tick. Tock. Tick. Tock.",
     "",
     "The air is thick with blood and irony.",
     "You've turned the UAC's final gambit against",
