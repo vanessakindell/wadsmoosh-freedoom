@@ -95,7 +95,7 @@ WAD_LUMP_LISTS = {
     'doom3do': ['music_doom3do'],
     'freedoom1': ['graphics_freedoom1', 'patches_freedoom1', 'flats_freedoom1', 'music_freedoom1'],
     'freedoom2': ['graphics_freedoom2', 'patches_freedoom2', 'flats_freedoom2', 'music_freedoom2'],
-    'id1': ['graphics_id1', 'pathes_id1', 'flats_id1', 'music_id1', 'sounds_id1', 'sprites_id1']
+    'id1': ['graphics_id1', 'music_id1', 'patches_id1', 'data_id1', 'flats_id1', 'sounds_id1', 'sprites_id1', 'txdefs_id1']
 }
 
 # prefixes for filenames of maps extracted from IWADs
