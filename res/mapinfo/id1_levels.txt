@@ -16,8 +16,8 @@ map ID1_MAP01 "Scar Gate"
     secretnext = "ID1_MAP02"
     titlepatch = "XWILV00"
     sky1 = "SKYX1"
-    cluster = x1
-    par = 
+    cluster = 55
+    par = 120 
     music = "D_WELCOM"
     ExitPic = "XWINTER0"
     Author = "Samuel Villarreal"
@@ -30,8 +30,8 @@ map ID1_MAP02 "Sanguine Wastes"
     secretnext = "ID1_MAP15"
     titlepatch = "XWILV01"
     sky1 = "SKYX3"
-    cluster = x1
-    par = 
+    cluster = 55
+    par = 120 
     music = "D_SHORES"
     ExitPic = "XWINTER0"
     Author = "Xaser Acheron"
@@ -44,8 +44,8 @@ map ID1_MAP03 "Spirit Drains"
     secretnext = "ID1_MAP04"
     titlepatch = "XWILV02"
     sky1 = "SKYX3"
-    cluster = x1
-    par = 
+    cluster = 55
+    par = 120 
     music = "D_BILGE"
     ExitPic = "XWINTER0"
     Author = "Thomas Carter"
@@ -58,8 +58,8 @@ map ID1_MAP04 "Descending Inferno"
     secretnext = "ID1_MAP05"
     titlepatch = "XWILV03"
     sky1 = "SKYX3"
-    cluster = x1
-    par = 
+    cluster = 55
+    par = 120 
     music = "D_REGARD"
     ExitPic = "XWINTER0"
     Author = "Samuel Villarreal"
@@ -72,8 +72,8 @@ map ID1_MAP05 "Creeping Hate"
     secretnext = "ID1_MAP06"
     titlepatch = "XWILV04"
     sky1 = "SKYZ4"
-    cluster = x1
-    par = 
+    cluster = 55
+    par = 120 
     music = "D_LAUGH"
     ExitPic = "XWINTER0"
     Author = "Samuel Villarreal"
@@ -86,8 +86,8 @@ map ID1_MAP06 "The Coiled City"
     secretnext = "ID1_MAP07"
     titlepatch = "XWILV05"
     sky1 = "SKYX4"
-    cluster = x1
-    par = 
+    cluster = 55
+    par = 120 
     music = "D_CLOUDY"
     ExitPic = "XWINTER0"
     Author = "Xaser Acheron"
@@ -100,8 +100,8 @@ map ID1_MAP07 "Forfeited Salvation"
     secretnext = EndGame1"
     titlepatch = "XWILV06"
     sky1 = "SKYX4"
-    cluster = x1
-    par = 
+    cluster = 55
+    par = 120 
     music = "D_TACTIC"
     ExitPic = "XWINTER0"
     Author = "Samuel Villarreal"
@@ -114,8 +114,8 @@ map ID1_MAP15 "Ash Mill"
     secretnext = "ID1_MAP03"
     titlepatch = "XWILV07"
     sky1 = "SKYX3"
-    cluster = x1
-    par = 
+    cluster = 55
+    par = 120 
     music = "D_OPENIN"
     ExitPic = "XWINTER0"
     Author = "Xaser Acheron"
@@ -132,8 +132,8 @@ map ID1_MAP08 "Second Coming"
     secretnext = "ID1_MAP09"
     titlepatch = "XWILV10"
     sky1 = "SKYX2"
-    cluster = x2
-    par = 
+    cluster = 56
+    par = 120 
     music = "D_BONK"
     ExitPic = "XWINTER1"
     Author = "Ethan Watson & Xaser Acheron"
@@ -146,8 +146,8 @@ map ID1_MAP09 "Falsehood"
     secretnext = "ID1_MAP10"
     titlepatch = "XWILV11"
     sky1 = "SKYX2"
-    cluster = x2
-    par = 
+    cluster = 56
+    par = 120 
     music = "D_DRIVER"
     ExitPic = "XWINTER1"
     Author = "Samuel Villarreal"
@@ -160,8 +160,8 @@ map ID1_MAP10 "Dis Union"
     secretnext = "ID1_MAP16"
     titlepatch = "XWILV12"
     sky1 = "SKYX2"
-    cluster = x2
-    par = 
+    cluster = 56
+    par = 120 
     music = "D_WIZARD"
     ExitPic = "XWINTER1"
     Author = "Ethan Watson"
@@ -174,8 +174,8 @@ map ID1_MAP11 "Echoes of Pain"
     secretnext = "ID1_MAP12"
     titlepatch = "XWILV13"
     sky1 = "SKYX2"
-    cluster = x2
-    par = 
+    cluster = 56
+    par = 120 
     music = "D_DEJAVU"
     ExitPic = "XWINTER1"
     Author = "Samuel Villarreal"
@@ -188,8 +188,8 @@ map ID1_MAP12 "The Rack"
     secretnext = "ID1_MAP13"
     titlepatch = "XWILV14"
     sky1 = "SKYX4"
-    cluster = x2
-    par = 
+    cluster = 56
+    par = 120 
     music = "D_DISGUS"
     ExitPic = "XWINTER1"
     Author = "Samuel Villarreal"
@@ -202,8 +202,8 @@ map ID1_MAP13 "Soul Silo"
     secretnext = "ID1_MAP14"
     titlepatch = "XWILV15"
     sky1 = "SKYX4"
-    cluster = x2
-    par = 
+    cluster = 56
+    par = 120 
     music = "D_VESPER"
     ExitPic = "XWINTER1"
     Author = "Kevin Dunlop"
@@ -216,8 +216,8 @@ map ID1_MAP14 "Brink"
     secretnext = "EndGame2"
     titlepatch = "XWILV16"
     sky1 = "SKYX5"
-    cluster = x2
-    par = 
+    cluster = 56
+    par = 120 
     music = "D_SKELET"
     ExitPic = "XWINTER1"
     Author = "Xaser Acheron"
@@ -230,14 +230,14 @@ map ID1_MAP16 "Panopticon"
     secretnext = "ID1_MAP11"
     titlepatch = "XWILV17"
     sky1 = "SKYX2"
-    cluster = x2
-    par = 
+    cluster = 56
+    par = 120 
     music = "D_HELFOR"
     ExitPic = "XWINTER1"
     Author = "Xaser Acheron"
 }
 
-cluster x1
+cluster 55
 {
     flat = "SLIME20"
     music = "D_SHORES"
@@ -259,7 +259,7 @@ cluster x1
     "Time to carve a legacy of your own."
 }
 
-cluster x2
+cluster 56
 {
     flat = "FLOOR9_2"
     music = "D_SHORES"
