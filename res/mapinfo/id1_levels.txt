@@ -17,7 +17,7 @@ map ID1_MAP01 "Scar Gate"
     titlepatch = "XWILV00"
     sky1 = "SKYX1"
     cluster = 55
-    par = 120 
+    par = 30 
     music = "D_WELCOM"
     ExitPic = "ID1INTER"
     Author = "Samuel Villarreal"
@@ -31,7 +31,7 @@ map ID1_MAP02 "Sanguine Wastes"
     titlepatch = "XWILV01"
     sky1 = "SKYX3"
     cluster = 55
-    par = 120 
+    par = 90 
     music = "D_SHORES"
     ExitPic = "ID1INTER"
     Author = "Xaser Acheron"
@@ -73,7 +73,7 @@ map ID1_MAP05 "Creeping Hate"
     titlepatch = "XWILV04"
     sky1 = "SKYZ4"
     cluster = 55
-    par = 120 
+    par = 90 
     music = "D_LAUGH"
     ExitPic = "ID1INTER"
     Author = "Samuel Villarreal"
@@ -87,7 +87,7 @@ map ID1_MAP06 "The Coiled City"
     titlepatch = "XWILV05"
     sky1 = "SKYX4"
     cluster = 55
-    par = 120 
+    par = 180 
     music = "D_CLOUDY"
     ExitPic = "ID1INTER"
     Author = "Xaser Acheron"
@@ -115,7 +115,7 @@ map ID1_MAP15 "Ash Mill"
     titlepatch = "XWILV07"
     sky1 = "SKYX3"
     cluster = 55
-    par = 120 
+    par = 210 
     music = "D_OPENIN"
     ExitPic = "ID1INTER"
     Author = "Xaser Acheron"
@@ -147,7 +147,7 @@ map ID1_MAP09 "Falsehood"
     titlepatch = "XWILV11"
     sky1 = "SKYX2"
     cluster = 56
-    par = 120 
+    par = 270 
     music = "D_DRIVER"
     ExitPic = "ID1INTER"
     Author = "Samuel Villarreal"
@@ -161,7 +161,7 @@ map ID1_MAP10 "Dis Union"
     titlepatch = "XWILV12"
     sky1 = "SKYX2"
     cluster = 56
-    par = 120 
+    par = 90 
     music = "D_WIZARD"
     ExitPic = "ID1INTER"
     Author = "Ethan Watson"
@@ -175,7 +175,7 @@ map ID1_MAP11 "Echoes of Pain"
     titlepatch = "XWILV13"
     sky1 = "SKYX2"
     cluster = 56
-    par = 120 
+    par = 210 
     music = "D_DEJAVU"
     ExitPic = "ID1INTER"
     Author = "Samuel Villarreal"
@@ -189,7 +189,7 @@ map ID1_MAP12 "The Rack"
     titlepatch = "XWILV14"
     sky1 = "SKYX4"
     cluster = 56
-    par = 120 
+    par = 150 
     music = "D_DISGUS"
     ExitPic = "ID1INTER"
     Author = "Samuel Villarreal"
@@ -203,7 +203,7 @@ map ID1_MAP13 "Soul Silo"
     titlepatch = "XWILV15"
     sky1 = "SKYX4"
     cluster = 56
-    par = 120 
+    par = 150 
     music = "D_VESPER"
     ExitPic = "ID1INTER"
     Author = "Kevin Dunlop"
@@ -217,7 +217,7 @@ map ID1_MAP14 "Brink"
     titlepatch = "XWILV16"
     sky1 = "SKYX5"
     cluster = 56
-    par = 120 
+    par = 150 
     music = "D_SKELET"
     ExitPic = "ID1INTER"
     Author = "Xaser Acheron"
@@ -231,7 +231,7 @@ map ID1_MAP16 "Panopticon"
     titlepatch = "XWILV17"
     sky1 = "SKYX2"
     cluster = 56
-    par = 120 
+    par = 150 
     music = "D_HELFOR"
     ExitPic = "ID1INTER"
     Author = "Xaser Acheron"
