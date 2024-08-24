@@ -19,7 +19,7 @@ map ID1_MAP01 "Scar Gate"
     cluster = 55
     par = 120 
     music = "D_WELCOM"
-    ExitPic = "XWINTER0"
+    ExitPic = "ID1INTER"
     Author = "Samuel Villarreal"
 }
 
@@ -33,7 +33,7 @@ map ID1_MAP02 "Sanguine Wastes"
     cluster = 55
     par = 120 
     music = "D_SHORES"
-    ExitPic = "XWINTER0"
+    ExitPic = "ID1INTER"
     Author = "Xaser Acheron"
 }
 
@@ -47,7 +47,7 @@ map ID1_MAP03 "Spirit Drains"
     cluster = 55
     par = 120 
     music = "D_BILGE"
-    ExitPic = "XWINTER0"
+    ExitPic = "ID1INTER"
     Author = "Thomas Carter"
 }
 
@@ -61,7 +61,7 @@ map ID1_MAP04 "Descending Inferno"
     cluster = 55
     par = 120 
     music = "D_REGARD"
-    ExitPic = "XWINTER0"
+    ExitPic = "ID1INTER"
     Author = "Samuel Villarreal"
 }
 
@@ -75,7 +75,7 @@ map ID1_MAP05 "Creeping Hate"
     cluster = 55
     par = 120 
     music = "D_LAUGH"
-    ExitPic = "XWINTER0"
+    ExitPic = "ID1INTER"
     Author = "Samuel Villarreal"
 }
 
@@ -89,7 +89,7 @@ map ID1_MAP06 "The Coiled City"
     cluster = 55
     par = 120 
     music = "D_CLOUDY"
-    ExitPic = "XWINTER0"
+    ExitPic = "ID1INTER"
     Author = "Xaser Acheron"
 }
 
@@ -103,7 +103,7 @@ map ID1_MAP07 "Forfeited Salvation"
     cluster = 55
     par = 120 
     music = "D_TACTIC"
-    ExitPic = "XWINTER0"
+    ExitPic = "ID1INTER"
     Author = "Samuel Villarreal"
 }
 
@@ -117,7 +117,7 @@ map ID1_MAP15 "Ash Mill"
     cluster = 55
     par = 120 
     music = "D_OPENIN"
-    ExitPic = "XWINTER0"
+    ExitPic = "ID1INTER"
     Author = "Xaser Acheron"
 }
 
@@ -135,7 +135,7 @@ map ID1_MAP08 "Second Coming"
     cluster = 56
     par = 120 
     music = "D_BONK"
-    ExitPic = "XWINTER1"
+    ExitPic = "ID1INTER"
     Author = "Ethan Watson & Xaser Acheron"
 }
 
@@ -149,7 +149,7 @@ map ID1_MAP09 "Falsehood"
     cluster = 56
     par = 120 
     music = "D_DRIVER"
-    ExitPic = "XWINTER1"
+    ExitPic = "ID1INTER"
     Author = "Samuel Villarreal"
 }
 
@@ -163,7 +163,7 @@ map ID1_MAP10 "Dis Union"
     cluster = 56
     par = 120 
     music = "D_WIZARD"
-    ExitPic = "XWINTER1"
+    ExitPic = "ID1INTER"
     Author = "Ethan Watson"
 }
 
@@ -177,7 +177,7 @@ map ID1_MAP11 "Echoes of Pain"
     cluster = 56
     par = 120 
     music = "D_DEJAVU"
-    ExitPic = "XWINTER1"
+    ExitPic = "ID1INTER"
     Author = "Samuel Villarreal"
 }
 
@@ -191,7 +191,7 @@ map ID1_MAP12 "The Rack"
     cluster = 56
     par = 120 
     music = "D_DISGUS"
-    ExitPic = "XWINTER1"
+    ExitPic = "ID1INTER"
     Author = "Samuel Villarreal"
 }
 
@@ -205,7 +205,7 @@ map ID1_MAP13 "Soul Silo"
     cluster = 56
     par = 120 
     music = "D_VESPER"
-    ExitPic = "XWINTER1"
+    ExitPic = "ID1INTER"
     Author = "Kevin Dunlop"
 }
 
@@ -219,7 +219,7 @@ map ID1_MAP14 "Brink"
     cluster = 56
     par = 120 
     music = "D_SKELET"
-    ExitPic = "XWINTER1"
+    ExitPic = "ID1INTER"
     Author = "Xaser Acheron"
 }
 
@@ -233,7 +233,7 @@ map ID1_MAP16 "Panopticon"
     cluster = 56
     par = 120 
     music = "D_HELFOR"
-    ExitPic = "XWINTER1"
+    ExitPic = "ID1INTER"
     Author = "Xaser Acheron"
 }
 
