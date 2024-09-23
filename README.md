@@ -45,7 +45,6 @@ Here is the official list of WADs that WadSmoosh Plus will recognize:
 - No End in Sight (`neis.wad`)
 - Freedoom Phase 1 (`freedoom1.wad`)
 - Freedoom Phase 2 (`freedoom2.wad`)
-- Legacy of Rust (`id1.wad`)
 - Doom 3DO Soundtrack (`doom3do.wad`)
 
 For Sigil and Sigil II, all the filenames for different releases of those WADs are also recognized; you shouldn't have to rename your original files.
@@ -103,9 +102,6 @@ use `neis.wad`
 Freedoom Phase 1 & Phase 2 (version 0.13.o supported only):
 https://github.com/freedoom/freedoom/releases/tag/v0.13.0
 Use `freedoom1.wad` and `freedoom2.wad`
-
-Legacy of Rust:
-This is the retail release. It comes with the 2024 Doom I & Doom II remaster. After you install it, you can use the `ID1.WAD` it creates.
 
 Doom 3DO Soundtrack:
 https://www.moddb.com/games/doom/addons/doom-3do-music
