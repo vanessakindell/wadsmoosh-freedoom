@@ -1,0 +1,283 @@
+//
+// doom-id1 -- first episode
+// The Vulcan Abyss
+
+defaultmap
+{
+    BorderTexture = "FLOOR9_2"
+    InterMusic = "D_WELCOM"
+    ExitPic = "ID1_INTER"
+}
+
+map ID1_MAP01 "Scar Gate"
+{
+    levelnum = 1
+    next = "ID1_MAP02"
+    secretnext = "ID1_MAP02"
+    titlepatch = "XWILV00"
+    sky1 = "SKYX1"
+    cluster = 55
+    par = 30 
+    music = "D_WELCOM"
+    ExitPic = "ID1INTER"
+    Author = "Samuel Villarreal"
+}
+
+map ID1_MAP02 "Sanguine Wastes"
+{
+    levelnum = 2
+    next = "ID1_MAP03"
+    secretnext = "ID1_MAP15"
+    titlepatch = "XWILV01"
+    sky1 = "SKYX3"
+    cluster = 55
+    par = 90 
+    music = "D_SHORES"
+    ExitPic = "ID1INTER"
+    Author = "Xaser Acheron"
+}
+
+map ID1_MAP03 "Spirit Drains"
+{
+    levelnum = 3
+    next = "ID1_MAP04"
+    secretnext = "ID1_MAP04"
+    titlepatch = "XWILV02"
+    sky1 = "SKYX3"
+    cluster = 55
+    par = 120 
+    music = "D_BILGE"
+    ExitPic = "ID1INTER"
+    Author = "Thomas Carter"
+}
+
+map ID1_MAP04 "Descending Inferno"
+{
+    levelnum = 4
+    next = "ID1_MAP05"
+    secretnext = "ID1_MAP05"
+    titlepatch = "XWILV03"
+    sky1 = "SKYX3"
+    cluster = 55
+    par = 120 
+    music = "D_REGARD"
+    ExitPic = "ID1INTER"
+    Author = "Samuel Villarreal"
+}
+
+map ID1_MAP05 "Creeping Hate"
+{
+    levelnum = 5
+    next = "ID1_MAP06"
+    secretnext = "ID1_MAP06"
+    titlepatch = "XWILV04"
+    sky1 = "SKYZ4"
+    cluster = 55
+    par = 90 
+    music = "D_LAUGH"
+    ExitPic = "ID1INTER"
+    Author = "Samuel Villarreal"
+}
+
+map ID1_MAP06 "The Coiled City"
+{
+    levelnum = 6
+    next = "ID1_MAP07"
+    secretnext = "ID1_MAP07"
+    titlepatch = "XWILV05"
+    sky1 = "SKYX4"
+    cluster = 55
+    par = 180 
+    music = "D_CLOUDY"
+    ExitPic = "ID1INTER"
+    Author = "Xaser Acheron"
+}
+
+map ID1_MAP07 "Forfeited Salvation"
+{
+    levelnum = 7
+    next = "EndGame1"
+    secretnext = "EndGame1"
+    titlepatch = "XWILV06"
+    sky1 = "SKYX4"
+    cluster = 55
+    par = 120 
+    music = "D_TACTIC"
+    ExitPic = "ID1INTER"
+    Author = "Samuel Villarreal"
+}
+
+map ID1_MAP15 "Ash Mill"
+{
+    levelnum = 8
+    next = "ID1_MAP03"
+    secretnext = "ID1_MAP03"
+    titlepatch = "XWILV07"
+    sky1 = "SKYX3"
+    cluster = 55
+    par = 210 
+    music = "D_OPENIN"
+    ExitPic = "ID1INTER"
+    Author = "Xaser Acheron"
+}
+
+//
+// doom-id1 -- second episode
+// Counterfeit Eden
+
+map ID1_MAP08 "Second Coming"
+{
+    levelnum = 11
+    next = "ID1_MAP09"
+    secretnext = "ID1_MAP09"
+    titlepatch = "XWILV10"
+    sky1 = "SKYX2"
+    cluster = 56
+    par = 120 
+    music = "D_BONK"
+    ExitPic = "ID1INTER"
+    Author = "Ethan Watson & Xaser Acheron"
+}
+
+map ID1_MAP09 "Falsehood"
+{
+    levelnum = 12
+    next = "ID1_MAP10"
+    secretnext = "ID1_MAP10"
+    titlepatch = "XWILV11"
+    sky1 = "SKYX2"
+    cluster = 56
+    par = 270 
+    music = "D_DRIVER"
+    ExitPic = "ID1INTER"
+    Author = "Samuel Villarreal"
+}
+
+map ID1_MAP10 "Dis Union"
+{
+    levelnum = 13
+    next = "ID1_MAP11"
+    secretnext = "ID1_MAP16"
+    titlepatch = "XWILV12"
+    sky1 = "SKYX2"
+    cluster = 56
+    par = 90 
+    music = "D_WIZARD"
+    ExitPic = "ID1INTER"
+    Author = "Ethan Watson"
+}
+
+map ID1_MAP11 "Echoes of Pain"
+{
+    levelnum = 14
+    next = "ID1_MAP12"
+    secretnext = "ID1_MAP12"
+    titlepatch = "XWILV13"
+    sky1 = "SKYX2"
+    cluster = 56
+    par = 210 
+    music = "D_DEJAVU"
+    ExitPic = "ID1INTER"
+    Author = "Samuel Villarreal"
+}
+
+map ID1_MAP12 "The Rack"
+{
+    levelnum = 15
+    next = "ID1_MAP13"
+    secretnext = "ID1_MAP13"
+    titlepatch = "XWILV14"
+    sky1 = "SKYX4"
+    cluster = 56
+    par = 150 
+    music = "D_DISGUS"
+    ExitPic = "ID1INTER"
+    Author = "Samuel Villarreal"
+}
+
+map ID1_MAP13 "Soul Silo"
+{
+    levelnum = 16
+    next = "ID1_MAP14"
+    secretnext = "ID1_MAP14"
+    titlepatch = "XWILV15"
+    sky1 = "SKYX4"
+    cluster = 56
+    par = 150 
+    music = "D_VESPER"
+    ExitPic = "ID1INTER"
+    Author = "Kevin Dunlop"
+}
+
+map ID1_MAP14 "Brink"
+{
+    levelnum = 17
+    next = "EndGame2"
+    secretnext = "EndGame2"
+    titlepatch = "XWILV16"
+    sky1 = "SKYX5"
+    cluster = 56
+    par = 150 
+    music = "D_SKELET"
+    ExitPic = "ID1INTER"
+    Author = "Xaser Acheron"
+}
+
+map ID1_MAP16 "Panopticon"
+{
+    levelnum = 18
+    next = "ID1_MAP11"
+    secretnext = "ID1_MAP11"
+    titlepatch = "XWILV17"
+    sky1 = "SKYX2"
+    cluster = 56
+    par = 150 
+    music = "D_HELFOR"
+    ExitPic = "ID1INTER"
+    Author = "Xaser Acheron"
+}
+
+cluster 55
+{
+    flat = "SLIME20"
+    music = "D_SHORES"
+    exittext = "Damn.",
+    "",
+    "The oldest trap in the book, and you fell",
+    "right into it. Even the best make mistakes.",
+    "",
+    "As you fade into unconsciousness, an",
+    "epiphany surges through the pain: the base",
+    "is beyond recovery, and the UAC knew it.",
+    "Why send their best agent on a suicide run?",
+    "There's something else at stake. What are",
+    "they hiding on this barren, bleeding rock?",
+    "",
+    "As they toss your half-conscious form into",
+    "a rusty iron cage, you vow to find answers.",
+    "",
+    "Time to carve a legacy of your own."
+}
+
+cluster 56
+{
+    flat = "FLOOR9_2"
+    music = "D_SHORES"
+    exittext = "Tick. Tock. Tick. Tock.",
+    "",
+    "The air is thick with blood and irony.",
+    "You've turned the UAC's final gambit against",
+    "them, but will they have the last laugh?",
+    "",
+    "Three. Two. One.",
+    "",
+    "Then, with a snap and a puff of ozone, the",
+    "portal winks out of existence, its crimson",
+    "maelstrom yielding to blessed silence.",
+    "",
+    "Zero.",
+    "",
+    "It's done. You've rid the world of two evils",
+    "in a single violent stroke... and survived.",
+    "Legacy can wait. You ain't finished yet."
+}
