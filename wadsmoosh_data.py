@@ -86,7 +86,7 @@ WAD_LUMP_LISTS = {
     'plutoniau': ['graphics_plutoniau'],
     'tntr': ['graphics_tntr', 'patches_tntr', 'flats_tntr', 'music_tntr'],
     'pl2': ['graphics_pl2', 'patches_pl2', 'flats_pl2', 'music_pl2'],
-    'perdgate': ['graphics_perdgate', 'patches_perdgate', 'flats_perdgate', 'music_perdgate'],
+    'perdgate': ['graphics_perdgate', 'music_perdgate'],
     'hell2pay': ['graphics_hell2pay', 'patches_hell2pay', 'flats_hell2pay', 'music_hell2pay'],
     'neis': ['graphics_neis', 'patches_neis', 'flats_neis'],
     # "found secret" sound from unity port
