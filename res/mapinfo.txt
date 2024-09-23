@@ -14,6 +14,7 @@ include mapinfo/pl2_levels.txt
 include mapinfo/hell2pay_levels.txt
 include mapinfo/perdgate_levels.txt
 include mapinfo/neis_levels.txt
+include mapinfo/id1_levels.txt
 include mapinfo/freedoom1_levels.txt
 include mapinfo/freedoom2_levels.txt
 
@@ -150,6 +151,18 @@ episode NS_E3M1
 episode NS_E4M1
 {
 	name = "Blood Stained Earth"
+	optional
+}
+
+episode ID1_MAP01
+{
+	name = "The Vulcan Abyss"
+	optional
+}
+
+episode ID1_MAP08
+{
+	name = "Counterfeit Eden"
 	optional
 }
 

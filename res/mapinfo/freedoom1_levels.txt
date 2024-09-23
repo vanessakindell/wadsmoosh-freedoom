@@ -75,7 +75,7 @@ map FD1_E1M6 "Training Facility"
 	cluster = 27
 	par = 180
 	music = "FD1_E1M6"
-	author = "Luiz Henrique Gasparin Jerônimo"
+	author = "GeekMarine"
 }
 
 map FD1_E1M7 "Xenobiotic Materials Lab"
@@ -229,7 +229,7 @@ map FD1_E2M9 "Fortress 31"
 	cluster = 28
 	par = 170
 	music = "FD1_E2M9"
-	author = "Luiz Henrique Gasparin Jerônimo"
+	author = "Miguel Suarez Gomez"
 }
 
 // FreeDoom Episode 3
@@ -315,7 +315,7 @@ map FD1_E3M7 "No Regrets"
 	cluster = 29
 	par = 165
 	music = "FD1_E3M7"
-	author = "Robin Palmer"
+	author = "Sean Gauthier"
 }
 
 map FD1_E3M8 "Ancient Lair"

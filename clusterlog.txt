@@ -67,3 +67,6 @@ cluster 51: Plutonia 2 third cluster
 cluster 52: Plutonia 2 fourth cluster
 cluster 53: Plutonia 2 fifth cluster
 cluster 54: Plutonia 2 sixth cluster
+
+cluster 55: Legacy of Rust: The Vulcan Abyss
+cluster 56: Legacy of Rust: Counterfeit Eden

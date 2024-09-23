@@ -13,7 +13,7 @@ map FD2_MAP01 "Hydroelectric Plant"
 	cluster = 31
 	par = 30
 	music = "FD2_RUNNIN"
-	author = "Samuel Oliver, Eric Baker, and Xindage"
+	author = "Samuel Oliver, Luiz Henrique Gasparin Jeronimo, Jon Dowland"
 }
 
 map FD2_MAP02 "Filtration Tunnels"
@@ -37,7 +37,7 @@ map FD2_MAP03 "Crude Processing Center"
 	cluster = 31
 	par = 120
 	music = "FD2_COUNTD"
-	author = "SgtCrispy"
+	author = "Jeremy Elder"
 }
 
 map FD2_MAP04 "Containment Bay"
@@ -49,7 +49,7 @@ map FD2_MAP04 "Containment Bay"
 	cluster = 31
 	par = 120
 	music = "FD2_BETWEE"
-	author = "The Green Herring"
+	author = "Mark Pedersen"
 }
 
 map FD2_MAP05 "Sludge Burrow"
@@ -74,7 +74,7 @@ map FD2_MAP06 "Janus Terminal"
 	par = 150
 	sucktime = 1
 	music = "FD2_THE_DA"
-	author = "Jayextee"
+	author = "Jay Trent"
 }
 
 map FD2_MAP07 "Logic Gate"
@@ -111,7 +111,7 @@ map FD2_MAP09 "Datacenter"
 	cluster = 32
 	par = 270
 	music = "FD2_IN_CIT"
-	author = "Svante Ekholm"
+	author = "Kristian Nilsen"
 }
 
 map FD2_MAP10 "Deadly Outlands"
@@ -135,7 +135,7 @@ map FD2_MAP11 "Dimensional Rift"
 	cluster = 32
 	par = 210
 	music = "FD2_STLKS2"
-	author = "Samuel Villarreal and Catoptromancy"
+	author = "Samuel Villarreal"
 }
 
 map FD2_MAP12 "Railroads"
@@ -147,7 +147,7 @@ map FD2_MAP12 "Railroads"
 	cluster = 33
 	par = 150
 	music = "FD2_THEDA2"
-	author = "Z0k"
+	author = "Miguel Suarez Gomez"
 }
 
 map FD2_MAP13 "Station Earth"
@@ -159,7 +159,7 @@ map FD2_MAP13 "Station Earth"
 	cluster = 33
 	par = 150
 	music = "FD2_DOOM2"
-	author = "Jayextee"
+	author = "Jay Trent"
 }
 
 map FD2_MAP14 "Nuclear Zone"
@@ -171,7 +171,7 @@ map FD2_MAP14 "Nuclear Zone"
 	cluster = 33
 	par = 150
 	music = "FD2_DDTBL2"
-	author = "Jayextee"
+	author = "Jay Trent"
 }
 
 map FD2_MAP15 "Hostile Takeover"
@@ -183,7 +183,7 @@ map FD2_MAP15 "Hostile Takeover"
 	cluster = 33
 	par = 210
 	music = "FD2_RUNNI2"
-	author = "Z0k"
+	author = "Miguel Suarez Gomez"
 }
 
 map FD2_MAP16 "Urban Jungle"
@@ -207,7 +207,7 @@ map FD2_MAP17 "City Capitol"
 	cluster = 33
 	par = 420
 	music = "FD2_STLKS3"
-	author = "Jayextee"
+	author = "Jay Trent"
 }
 
 map FD2_MAP18 "Aquatics Lab"
@@ -231,7 +231,7 @@ map FD2_MAP19 "Sewage Control"
 	cluster = 33
 	par = 210
 	music = "FD2_SHAWN2"
-	author = "Jayextee"
+	author = "Jay Trent"
 }
 
 map FD2_MAP20 "Blood Ember Fortress"
@@ -291,7 +291,7 @@ map FD2_MAP24 "Abandoned Teleporter Lab"
 	cluster = 34
 	par = 150
 	music = "FD2_THEDA3"
-	author = "Jayextee"
+	author = "Jay Trent"
 }
 
 map FD2_MAP25 "Persistence of Memory"
@@ -315,7 +315,7 @@ map FD2_MAP26 "Dark Depths"
 	cluster = 34
 	par = 300
 	music = "FD2_MESSG2"
-	author = "Nathaniel Patasky"
+	author = "Nathaniel Patasky, m"
 }
 
 map FD2_MAP27 "Palace of Red"
@@ -339,7 +339,7 @@ map FD2_MAP28 "Grim Redoubt"
 	cluster = 34
 	par = 420
 	music = "FD2_TENSE"
-	author = "Z0k"
+	author = "Miguel Suarez Gomez"
 }
 
 map FD2_MAP29 "Melting Point"
@@ -351,7 +351,7 @@ map FD2_MAP29 "Melting Point"
 	cluster = 34
 	par = 300
 	music = "FD2_SHAWN3"
-	author = "Amarande"
+	author = "Patrick Kalinauskas"
 }
 
 map FD2_MAP30 "Jaws of Defeat"
@@ -364,7 +364,7 @@ map FD2_MAP30 "Jaws of Defeat"
 	par = 180
 	allowmonstertelefrags
 	music = "FD2_OPENIN"
-	author = "Hawkwind"
+	author = "Sean Gauthier"
 }
 
 map FD2_MAP31 "Be Quiet"
@@ -376,7 +376,7 @@ map FD2_MAP31 "Be Quiet"
 	cluster = 35
 	par = 180
 	music = "FD2_DM2INT"
-	author = "Jayextee"
+	author = "Jay Trent"
 }
 
 map FD2_MAP32 "Not Sure"
@@ -388,7 +388,7 @@ map FD2_MAP32 "Not Sure"
 	cluster = 36
 	par = 180
 	music = "FD2_EVIL"
-	author = "Catoptromancy"
+	author = "Andrew Wood"
 }
 
 
