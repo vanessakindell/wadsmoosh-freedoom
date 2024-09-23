@@ -46,6 +46,7 @@ Here is the official list of WADs that WadSmoosh Plus will recognize:
 - Freedoom Phase 1 (`freedoom1.wad`)
 - Freedoom Phase 2 (`freedoom2.wad`)
 - Doom 3DO Soundtrack (`doom3do.wad`)
+- Legacy of Rust (`id1.wad`)
 
 For Sigil and Sigil II, all the filenames for different releases of those WADs are also recognized; you shouldn't have to rename your original files.
 
@@ -74,6 +75,10 @@ Then navigate to rerelease > DOOM_Data > StreamingAssets
 Use `doom.wad`/`doom2.wad` and `extras.wad`
 For The Ultimate Doom, your copy of doom.wad for this script must be renamed to `doomunity.wad`.
 For Doom II, your copy of doom2.wad for this script must be renamed to `doom2unity.wad`.
+NOTE: The Unity version of Doom and Doom 2 have been replaced by the new Kex Engine Nightdive version.
+
+Legacy of Rust:
+Inside the Steam version of Doom 1 + Doom 2 post Nightdive.
 
 Final Doom:
 Download TNT: Evilution and The Plutonia Experiment from the add-ons in the Unity version of Doom 1993 or Doom II
