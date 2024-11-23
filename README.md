@@ -46,6 +46,7 @@ Here is the official list of WADs that WadSmoosh Plus will recognize:
 - Freedoom Phase 1 (`freedoom1.wad`)
 - Freedoom Phase 2 (`freedoom2.wad`)
 - Doom 3DO Soundtrack (`doom3do.wad`)
+- Legacy of Rust (`id1.wad`)
 
 For Sigil and Sigil II, all the filenames for different releases of those WADs are also recognized; you shouldn't have to rename your original files.
 
