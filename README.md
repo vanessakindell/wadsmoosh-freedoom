@@ -1,4 +1,5 @@
-# WadSmoosh Plus - WAD merge utility
+# WadSmoosh+
+## A WAD merge utility
 
 WadSmoosh Plus merges supported IWADs into a single IWAD file that can be played in GZDoom expanding the episode list. This makes it very convenient to play all of classic Doom's official releases and more without relaunching the game with different settings.
 
@@ -43,6 +44,7 @@ Here is the official list of WADs that WadSmoosh Plus will recognize:
 - Perdition's Gate (`perdgate.wad`)
 - Hell To Pay (`hell2pay.wad`)
 - No End in Sight (`neis.wad`)
+- The Lost Episodes of Doom (`jptr_v40.wad`)
 - Freedoom Phase 1 (`freedoom1.wad`)
 - Freedoom Phase 2 (`freedoom2.wad`)
 - Doom 3DO Soundtrack (`doom3do.wad`)
@@ -99,6 +101,9 @@ No End in Sight:
 https://www.doomworld.com/idgames/levels/doom/Ports/megawads/neis
 use `neis.wad`
 
+The Lost Episodes of Doom:
+This was a retail release. You will have to find a copy on your own. After you install it, you can use the `JPTR_V40.WAD` it creates.
+
 Freedoom Phase 1 & Phase 2 (version 0.13.o supported only):
 https://github.com/freedoom/freedoom/releases/tag/v0.13.0
 Use `freedoom1.wad` and `freedoom2.wad`
@@ -109,7 +114,7 @@ Use `doom3do.wad`
 
 ## Absolute Beginner's Guide
 
-1. [Download WadSmoosh](https://jp.itch.io/wadsmoosh) and extract it to a folder.
+1. Download WadSmoosh+ and extract it to a folder.
 2. Find the folder(s) where Steam/GoG installed your game(s). For Steam, this will be something like `<Steam folder>\SteamApps\Common\<game name>\base`.
 3. Copy any files you find with a `.WAD` extension to the `source_wads/` subfolder where you extracted WadSmoosh.
 4. Run `wadsmoosh.sh`. Then the console will prompt confirmation and then show progress.
@@ -124,6 +129,8 @@ If you have any issues, the [How_to_download_and_run_Doom](http://doomwiki.org/w
 
 This fork enables the support for both Freedoom Phase 1 and 2 maps, music and *NEW* textures. It does not use the sprites nor the Doom-replacing textures since they will use the original ones. (I might add support for them in a future release but it's not on my to-do list right now.)
 
-This fork uses the actual episode names rather than simply adding all of Fredoom Phase 1 as a single episode and uses the name "Destination: Earth" as the name for Phase 2 based on the exit text of Phase 1.
+This version doesn't support Windows via exe. If you're on Windows, you can use the Windows Subsystem for Linux to run the script.
 
-_Copyright © 2001-2022 Contributors to the Freedoom project. All rights reserved._
+This fork uses the actual episode names rather than simply adding all of Fredoom Phase 1 as a single episode and uses the name "Destination: Earth" as the name for Phase 2 based on the exit text of Phase 1 as it was unnamed and just calling it "Phase 2" is a little goofy.
+
+On Linux you may have issues if your wads are named with uppercase characters. Simply change the filenames of the wads to lowercase and it should work. I reccomend GPRename for doing this quickly.

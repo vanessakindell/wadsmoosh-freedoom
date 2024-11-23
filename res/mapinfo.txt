@@ -14,7 +14,12 @@ include mapinfo/pl2_levels.txt
 include mapinfo/hell2pay_levels.txt
 include mapinfo/perdgate_levels.txt
 include mapinfo/neis_levels.txt
+<<<<<<< HEAD
+// include mapinfo/id1_levels.txt
+include mapinfo/jptr_levels.txt
+=======
 include mapinfo/id1_levels.txt
+>>>>>>> main
 include mapinfo/freedoom1_levels.txt
 include mapinfo/freedoom2_levels.txt
 
@@ -154,6 +159,38 @@ episode NS_E4M1
 	optional
 }
 
+<<<<<<< HEAD
+episode JPTR_E1M1
+{
+	name = "Massacre on Callisto"
+	optional
+}
+
+episode JPTR_E2M1
+{
+	name = "Killing Fields of Io"
+	optional
+}
+
+episode JPTR_E3M1
+{
+	name = "Hells Gate - The Red Spot of Jupiter"
+	optional
+}
+
+// episode ID1_MAP01
+// {
+// 	name = "The Vulcan Abyss"
+// 	optional
+// }
+
+// episode ID1_MAP08
+// {
+// 	name = "Counterfeit Eden"
+// 	optional
+// }
+
+=======
 episode ID1_MAP01
 {
 	name = "The Vulcan Abyss"
@@ -166,6 +203,7 @@ episode ID1_MAP08
 	optional
 }
 
+>>>>>>> main
 episode FD1_E1M1
 {
 	name = "Outpost Outbreak"
