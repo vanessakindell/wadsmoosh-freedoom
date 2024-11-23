@@ -394,12 +394,14 @@ def get_eps(wads_found):
             eps += ['Hell To Pay']
         elif wadname == 'neis' and 'doom' in wads_found:
             eps += ['1994 Ways to Die','The Depths of Doom','Woe','Bood Stained']
+        elif wadname == 'jptr' and 'doom' in wads_found:
+            eps +=['Massacre on Callisto','Killing Fields of Io','Hells Gate - The Red Spot of Jupiter']
         elif wadname == 'freedoom1' and 'doom' in wads_found:
             eps += ['Outpost Outbreak','Military Labs','Event Horizon','Double Impact']
         elif wadname == 'freedoom2' and 'doom2' in wads_found:
             eps += ['Destination: Earth']
-        elif wadname == 'id1' and 'doom2' in wads_found:
-            eps +=['The Vulcan Abyss','Counterfeit Eden']
+        #elif wadname == 'id1' and 'doom2' in wads_found:
+        #    eps +=['The Vulcan Abyss','Counterfeit Eden']
     return eps
 
 def main():
@@ -505,6 +507,9 @@ def main():
             continue
         if iwad_name == 'id1' and not get_wad_filename('doom2'):
             logg('Skipping id1.wad as doom2.wad is not present', error=True)
+            continue
+        if iwad_name == 'jptr' and not get_wad_filename('doom'):
+            logg('Skipping jptr_v40.wad as doom.wad is not present', error=True)
             continue
         logg('Processing WAD %s...' % iwad_name)
         if should_extract:

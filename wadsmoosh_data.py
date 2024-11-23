@@ -19,8 +19,9 @@ RES_FILES = [
     'mapinfo/sigil2_levels.txt', 'mapinfo/perdgate_levels.txt',
     'mapinfo/hell2pay_levels.txt','mapinfo/neis_levels.txt',
     'mapinfo/freedoom1_levels.txt', 'mapinfo/freedoom2_levels.txt',
-    'mapinfo/tntr_levels.txt','mapinfo/pl2_levels.txt', 
-    'mapinfo/id1_levels.txt',
+    'mapinfo/tntr_levels.txt','mapinfo/pl2_levels.txt',
+    'mapinfo/jptr_levels.txt',
+    # 'mapinfo/id1_levels.txt',
     'menudef.txt', 'cvarinfo.txt', 'zscript.txt'
 ]
 
@@ -40,14 +41,14 @@ TIDY_DIR_EXTENSIONS = {
 # list of files we can extract from
 WADS = ['doom', 'doom2', 'doom2bfg', 'tnt', 'plutonia', 'nerve', 'sigil', 'sigil_shreds',
         'sigil2', 'doomunity', 'doom2unity', 'nerveu', 'tntu', 'plutoniau', 'extras', 'perdgate', 'hell2pay',
-        'neis', 'freedoom1', 'freedoom2','doom3do', 'tntr', 'pl2', 'id1']
+        'neis', 'freedoom1', 'freedoom2','doom3do', 'tntr', 'pl2', 'jptr']
 
 # wads to search for and report if found
 REPORT_WADS = ['doom', 'sigil', 'sigil_shreds', 'sigil2',
                'doom2', 'nerve', 'attack', 'tnt', 'plutonia', 
                'sewers', 'betray', 'doomunity', 'doom2unity',
                'nerveu', 'tntu', 'plutoniau', 'extras', 'perdgate',
-               'hell2pay', 'neis', 'pl2', 'tntr', 'id1',
+               'hell2pay', 'neis', 'pl2', 'tntr', 'jptr',
                'freedoom1', 'freedoom2','doom3do']
 
 # lists of lumps common to doom 1+2
@@ -86,7 +87,7 @@ WAD_LUMP_LISTS = {
     'plutoniau': ['graphics_plutoniau'],
     'tntr': ['graphics_tntr', 'patches_tntr', 'flats_tntr', 'music_tntr'],
     'pl2': ['graphics_pl2', 'patches_pl2', 'flats_pl2', 'music_pl2'],
-    'perdgate': ['graphics_perdgate', 'patches_perdgate', 'flats_perdgate', 'music_perdgate'],
+    'perdgate': ['graphics_perdgate', 'music_perdgate'],
     'hell2pay': ['graphics_hell2pay', 'patches_hell2pay', 'flats_hell2pay', 'music_hell2pay'],
     'neis': ['graphics_neis', 'patches_neis', 'flats_neis'],
     # "found secret" sound from unity port
@@ -95,7 +96,7 @@ WAD_LUMP_LISTS = {
     'doom3do': ['music_doom3do'],
     'freedoom1': ['graphics_freedoom1', 'patches_freedoom1', 'flats_freedoom1', 'music_freedoom1'],
     'freedoom2': ['graphics_freedoom2', 'patches_freedoom2', 'flats_freedoom2', 'music_freedoom2'],
-    'id1': ['graphics_id1', 'music_id1', 'patches_id1', 'flats_id1', 'sounds_id1', 'sprites_id1', 'data_id1']
+    #'id1': ['graphics_id1', 'music_id1', 'patches_id1', 'flats_id1', 'sounds_id1', 'sprites_id1', 'data_id1']
 }
 
 # prefixes for filenames of maps extracted from IWADs
@@ -116,7 +117,8 @@ WAD_MAP_PREFIXES = {
     'freedoom2': 'FD2_',
     'tntr': 'TR_',
     'pl2': 'P2_',
-    'id1': 'ID1_'
+    'jptr' : 'JPTR_'
+    #'id1': 'ID1_'
 }
 
 # texture patches to extract from specific master levels PWADs
