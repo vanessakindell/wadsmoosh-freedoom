@@ -1,4 +1,5 @@
-# WadSmoosh+ - WAD merge utility
+# WadSmoosh+
+## A WAD merge utility
 
 WadSmoosh Plus merges supported IWADs into a single IWAD file that can be played in GZDoom expanding the episode list. This makes it very convenient to play all of classic Doom's official releases and more without relaunching the game with different settings.
 
