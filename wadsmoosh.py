@@ -1,4 +1,3 @@
-
 import os, sys, time
 from shutil import copyfile
 from zipfile import ZipFile, ZIP_DEFLATED
@@ -315,8 +314,6 @@ def copy_resources():
             continue
         elif src_file == 'textures.pl2' and not get_wad_filename('plutonia'):
             continue
-        elif src_file == 'textures.id1' and not get_wad_filename('id1'):
-            continue
         logg('Copying %s' % src_file)
         copyfile(RES_DIR + src_file, DEST_DIR + src_file)
     # doom2 vs doom2bfg map31/32 names differ, different mapinfos with same name
@@ -400,13 +397,6 @@ def get_eps(wads_found):
             eps += ['Outpost Outbreak','Military Labs','Event Horizon','Double Impact']
         elif wadname == 'freedoom2' and 'doom2' in wads_found:
             eps += ['Destination: Earth']
-<<<<<<< HEAD
-        #elif wadname == 'id1' and 'doom2' in wads_found:
-        #    eps +=['The Vulcan Abyss','Counterfeit Eden']
-=======
-        elif wadname == 'id1' and 'doom2' in wads_found:
-            eps +=['The Vulcan Abyss','Counterfeit Eden']
->>>>>>> main
     return eps
 
 def main():
@@ -510,15 +500,9 @@ def main():
         if iwad_name == 'pl2' and not get_wad_filename('plutonia'):
             logg('Skipping pl2.wad as plutonia.wad is not present', error=True)
             continue
-        if iwad_name == 'id1' and not get_wad_filename('doom2'):
-            logg('Skipping id1.wad as doom2.wad is not present', error=True)
-            continue
-<<<<<<< HEAD
         if iwad_name == 'jptr_v40' and not get_wad_filename('doom'):
             logg('Skipping jptr_v40.wad as doom.wad is not present', error=True)
             continue
-=======
->>>>>>> main
         logg('Processing WAD %s...' % iwad_name)
         if should_extract:
             extract_lumps(iwad_name)
