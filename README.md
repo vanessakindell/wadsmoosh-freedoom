@@ -129,8 +129,8 @@ If you have any issues, the [How_to_download_and_run_Doom](http://doomwiki.org/w
 
 This fork enables the support for both Freedoom Phase 1 and 2 maps, music and *NEW* textures. It does not use the sprites nor the Doom-replacing textures since they will use the original ones. (I might add support for them in a future release but it's not on my to-do list right now.)
 
-The dev branch doesn't support Windows. I'm developing this on a Linux computer so I only bother compiling the Windows version when I do a major release. If you're on Windows, you can use the Windows Subsystem for Linux to run the script.
+This version doesn't support Windows via exe. If you're on Windows, you can use the Windows Subsystem for Linux to run the script.
 
 This fork uses the actual episode names rather than simply adding all of Fredoom Phase 1 as a single episode and uses the name "Destination: Earth" as the name for Phase 2 based on the exit text of Phase 1 as it was unnamed and just calling it "Phase 2" is a little goofy.
 
-Note: On Linux you may have issues if your wads are named with uppercase characters. Simply change the filenames of the wads to lowercase and it should work. I reccomend GPRename for doing this quickly.
+On Linux you may have issues if your wads are named with uppercase characters. Simply change the filenames of the wads to lowercase and it should work. I reccomend GPRename for doing this quickly.
