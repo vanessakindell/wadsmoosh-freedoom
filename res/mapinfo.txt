@@ -14,7 +14,7 @@ include mapinfo/pl2_levels.txt
 include mapinfo/hell2pay_levels.txt
 include mapinfo/perdgate_levels.txt
 include mapinfo/neis_levels.txt
-include mapinfo/id1_levels.txt
+// include mapinfo/id1_levels.txt
 include mapinfo/jptr_levels.txt
 include mapinfo/freedoom1_levels.txt
 include mapinfo/freedoom2_levels.txt
