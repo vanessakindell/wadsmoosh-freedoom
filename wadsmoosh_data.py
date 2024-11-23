@@ -8,7 +8,7 @@ RES_FILES = [
     'textures.freedoom1', 'textures.freedoom2',
     'textures.tnt', 'textures.plut','textures.perdgate', 'animdefs.txt',
     'textures.hell2pay','textures.neis', 'textures.tntr', 'textures.pl2', 
-    'textures.id1',
+    # 'textures.id1',
     'graphics/M_DOOM.lmp', 'graphics/TITLEPIC.lmp',
     'graphics/M_HELL.lmp', 'graphics/M_NOREST.lmp',
     'graphics/M_MASTER.lmp', 'graphics/M_TNT.lmp',
@@ -41,14 +41,14 @@ TIDY_DIR_EXTENSIONS = {
 # list of files we can extract from
 WADS = ['doom', 'doom2', 'doom2bfg', 'tnt', 'plutonia', 'nerve', 'sigil', 'sigil_shreds',
         'sigil2', 'doomunity', 'doom2unity', 'nerveu', 'tntu', 'plutoniau', 'extras', 'perdgate', 'hell2pay',
-        'neis', 'freedoom1', 'freedoom2','doom3do', 'tntr', 'pl2', 'jptr']
+        'neis', 'freedoom1', 'freedoom2','doom3do', 'tntr', 'pl2', 'jptr_v40']
 
 # wads to search for and report if found
 REPORT_WADS = ['doom', 'sigil', 'sigil_shreds', 'sigil2',
                'doom2', 'nerve', 'attack', 'tnt', 'plutonia', 
                'sewers', 'betray', 'doomunity', 'doom2unity',
                'nerveu', 'tntu', 'plutoniau', 'extras', 'perdgate',
-               'hell2pay', 'neis', 'pl2', 'tntr', 'jptr',
+               'hell2pay', 'neis', 'pl2', 'tntr', 'jptr_v40',
                'freedoom1', 'freedoom2','doom3do']
 
 # lists of lumps common to doom 1+2
@@ -117,7 +117,7 @@ WAD_MAP_PREFIXES = {
     'freedoom2': 'FD2_',
     'tntr': 'TR_',
     'pl2': 'P2_',
-    'jptr' : 'JPTR_'
+    'jptr_v40' : 'JPTR_'
     #'id1': 'ID1_'
 }
 
