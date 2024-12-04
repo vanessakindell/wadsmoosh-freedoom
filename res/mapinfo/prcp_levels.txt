@@ -1,0 +1,450 @@
+// Plutonia Revisited Community Project mapinfo
+
+defaultmap
+{
+	InterMusic = "D_JA_CER"
+	ExitPic = "PRCP_INTER"
+}
+
+map PRCP_MAP01 "Stonewall"
+{
+	next = PRCP_MAP02
+	secretnext = PRCP_MAP02
+	sky1 = "SKY1"
+	cluster = 49
+	par = 30
+	music = "PRCP_RUNNIN"
+}
+
+map PRCP_MAP02 "Temple of Cetza"
+{
+	next = PRCP_MAP03
+	secretnext = PRCP_MAP03
+	sky1 = "SKY1"
+	cluster = 49
+	par = 90
+	music = "PRCP_STALKS"
+}
+
+map PRCP_MAP03 "Urban Decay"
+{
+	next = PRCP_MAP04
+	secretnext = PRCP_MAP04
+	sky1 = "SKY1"
+	cluster = 49
+	par = 120
+	music = "PRCP_COUNTD"
+}
+
+map PRCP_MAP04 "Emerald Pools"
+{
+	next = PRCP_MAP05
+	secretnext = PRCP_MAP05
+	sky1 = "SKY1"
+	cluster = 49
+	par = 120
+	music = "PRCP_BETWEE"
+}
+
+map PRCP_MAP05 "Flooded Place"
+{
+	next = PRCP_MAP06
+	secretnext = PRCP_MAP06
+	sky1 = "SKY1"
+	cluster = 49
+	par = 90
+	music = "PRCP_DOOM"
+}
+
+map PRCP_MAP06 "Stony Halls"
+{
+	next = PRCP_MAP07
+	secretnext = PRCP_MAP07
+	sky1 = "SKY1"
+	cluster = 49
+	par = 150
+	music = "PRCP_THE_DA"
+}
+
+map PRCP_MAP07 "Caughtisle"
+{
+	next = PRCP_MAP08
+	secretnext = PRCP_MAP08
+	sky1 = "SKY1"
+	cluster = 50
+	par = 120
+	music = "PRCP_SHAWN"
+}
+
+map PRCP_MAP08 "death rules"
+{
+	next = PRCP_MAP09
+	secretnext = PRCP_MAP09
+	sky1 = "SKY1"
+	cluster = 50
+	par = 120
+	music = "PRCP_DDTBLU"
+}
+
+map PRCP_MAP09 "Ruined Kingdom"
+{
+	next = PRCP_MAP10
+	secretnext = PRCP_MAP10
+	sky1 = "SKY1"
+	cluster = 50
+	par = 270
+	music = "PRCP_IN_CIT"
+}
+
+map PRCP_MAP10 "Bloodbath"
+{
+	next = PRCP_MAP11
+	secretnext = PRCP_MAP11
+	sky1 = "SKY1"
+	cluster = 50
+	par = 90
+	music = "PRCP_DEAD"
+}
+
+map PRCP_MAP11 "Be my NME?"
+{
+	next = PRCP_MAP12
+	secretnext = PRCP_MAP12
+	sky1 = "SKY1"
+	cluster = 50
+	par = 210
+	music = "PRCP_STLKS2"
+}
+
+map PRCP_MAP12 "Velocity"
+{
+	next = PRCP_MAP13
+	secretnext = PRCP_MAP13
+	sky1 = "SKY2"
+	cluster = 51
+	par = 150
+	music = "PRCP_THEDA2"
+}
+
+map PRCP_MAP13 "slaughter zone"
+{
+	next = PRCP_MAP14
+	secretnext = PRCP_MAP14
+	sky1 = "SKY2"
+	cluster = 51
+	par = 150
+	music = "PRCP_DOOM2"
+}
+
+map PRCP_MAP14 "undertaker"
+{
+	next = PRCP_MAP15
+	secretnext = PRCP_MAP15
+	sky1 = "SKY2"
+	cluster = 51
+	par = 150
+	music = "PRCP_DDTBL2"
+}
+
+map PRCP_MAP15 "helix"
+{
+	next = PRCP_MAP16
+	secretnext = PRCP_MAP31
+	sky1 = "SKY2"
+	cluster = 51
+	par = 210
+	music = "PRCP_RUNNI2"
+}
+
+map PRCP_MAP16 "Gambit"
+{
+	next = PRCP_MAP17
+	secretnext = PRCP_MAP17
+	sky1 = "SKY2"
+	cluster = 51
+	par = 150
+	music = "PRCP_DEAD2"
+}
+
+map PRCP_MAP17 "Unholy Crypt"
+{
+	next = PRCP_MAP18
+	secretnext = PRCP_MAP18
+	sky1 = "SKY2"
+	cluster = 51
+	par = 420
+	music = "PRCP_STLKS3"
+}
+
+map PRCP_MAP18 "Phantom Silence"
+{
+	next = PRCP_MAP19
+	secretnext = PRCP_MAP19
+	sky1 = "SKY2"
+	cluster = 51
+	par = 150
+	music = "PRCP_ROMERO"
+}
+
+map PRCP_MAP19 "Venom"
+{
+	next = PRCP_MAP20
+	secretnext = PRCP_MAP20
+	sky1 = "SKY2"
+	cluster = 51
+	par = 210
+	music = "PRCP_SHAWN2"
+}
+
+map PRCP_MAP20 "sinister daybreak"
+{
+	next = PRCP_MAP21
+	secretnext = PRCP_MAP21
+	sky1 = "SKY2"
+	cluster = 51
+	par = 150
+	music = "PRCP_MESSAG"
+}
+
+map PRCP_MAP21 "asmodeus' circle"
+{
+	next = PRCP_MAP22
+	secretnext = PRCP_MAP22
+	sky1 = "SKY3"
+	cluster = 52
+	par = 240
+	music = "PRCP_COUNT2"
+}
+
+map PRCP_MAP22 "suicide mission"
+{
+	next = PRCP_MAP23
+	secretnext = PRCP_MAP23
+	sky1 = "SKY3"
+	cluster = 52
+	par = 150
+	music = "PRCP_DDTBL3"
+}
+
+map PRCP_MAP23 "necrogenesis"
+{
+	next = PRCP_MAP24
+	secretnext = PRCP_MAP24
+	sky1 = "SKY3"
+	cluster = 52
+	par = 180
+	music = "PRCP_AMPIE"
+}
+
+map PRCP_MAP24 "terra incognita"
+{
+	next = PRCP_MAP25
+	secretnext = PRCP_MAP25
+	sky1 = "SKY3"
+	cluster = 52
+	par = 150
+	music = "PRCP_THEDA3"
+}
+
+map PRCP_MAP25 "wicked garden"
+{
+	next = PRCP_MAP26
+	secretnext = PRCP_MAP26
+	sky1 = "SKY3"
+	cluster = 52
+	par = 150
+	music = "PRCP_ADRIAN"
+}
+
+map PRCP_MAP26 "poison ivy 3"
+{
+	next = PRCP_MAP27
+	secretnext = PRCP_MAP27
+	sky1 = "SKY3"
+	cluster = 52
+	par = 300
+	music = "PRCP_MESSG2"
+}
+
+map PRCP_MAP27 "planned overload"
+{
+	next = PRCP_MAP28
+	secretnext = PRCP_MAP28
+	sky1 = "SKY3"
+	cluster = 52
+	par = 330
+	music = "PRCP_ROMER2"
+}
+
+map PRCP_MAP28 "devil dance"
+{
+	next = PRCP_MAP29
+	secretnext = PRCP_MAP29
+	sky1 = "SKY3"
+	cluster = 52
+	par = 420
+	music = "PRCP_TENSE"
+}
+
+map PRCP_MAP29 "atlatl"
+{
+	next = PRCP_MAP30
+	secretnext = PRCP_MAP30
+	sky1 = "SKY3"
+	cluster = 52
+	par = 300
+	music = "PRCP_SHAWN3"
+}
+
+map PRCP_MAP30 "in the eye of the beholder"
+{
+	sky1 = "SKY3"
+	cluster = 52
+	par = 180
+	music = "PRCP_OPENIN"
+	next = endgame
+}
+
+map PRCP_MAP31 "cyber vertigo"
+{
+	next = PRCP_MAP16
+	secretnext = PRCP_MAP32
+	sky1 = "SKY3"
+	cluster = 53
+	par = 120
+	music = "PRCP_EVIL"
+}
+
+map PRCP_MAP32 "have @ it"
+{
+	next = PRCP_MAP16
+	secretnext = PRCP_MAP16
+	sky1 = "SKY3"
+	cluster = 54
+	par = 30
+	music = "PRCP_ULTIMA"
+}
+
+cluster 49
+{
+	flat = GRASS2
+	music = D_JP_WAS
+	exittext = "You gloat over the steaming carcass of the",
+"Guardian.  With its death, you've wrested",
+"the Accelerator from the stinking claws",
+"of Hell.  You relax and glance around the",
+"room.  Damn!  There was supposed to be at",
+"least one working prototype, but you can't",
+"see it. The demons must have taken it.",
+"",
+"You must find the prototype, or all your",
+"struggles will have been wasted. Keep",
+"moving, keep fighting, keep killing.",
+"Oh yes, keep living, too.Jumping through the teleporter, you leave the",
+"complex behind, where you shut down one of the",
+"invaders' main interdimensional gates with its",
+"massive Hallion Collider device. This will put",
+"a stop to their plans for the meantime, giving",
+"you the chance to infiltrate the areas they",
+"control!",
+"",
+"On the other side of the Gate, your eyes adjust",
+"to the glare from the bleak sky. You see you have",
+"company. A feeling of deja vu floods your mind..."
+}
+
+cluster 50
+{
+	flat = FMETAL1
+	music = D_JP_WAS
+	exittext = "Even the deadly Arch-Vile labyrinth could",
+"not stop you, and you've gotten to the",
+"prototype Accelerator which is soon",
+"efficiently and permanently deactivated.",
+"",
+"You're good at that kind of thing.Defeated, you fall to your knees and all fades",
+"to black...",
+"",
+"But, in pain, you waken on the cold metal floor",
+"of a prison atop your battered gear, where they",
+"appear to have carelessly dumped you."
+}
+
+cluster 51
+{
+	flat = FLAT1
+	music = D_JP_WAS
+	exittext = "You've bashed and battered your way into",
+"the heart of the devil-hive.  Time for a",
+"Search-and-Destroy mission, aimed at the",
+"Gatekeeper, whose foul offspring is",
+"cascading to Earth.  Yeah, he's bad. But",
+"you know who's worse!",
+"",
+"Grinning evilly, you check your gear, and",
+"get ready to give the bastard a little Hell",
+"of your own making!The red glare of the crimson clouds has faded",
+"and you now see the slimy bowels of hell exposed",
+"above you.",
+"",
+"You've learned that the elder brother of the twins",
+"you defeated, Baphomet and the Gatekeeper, awaits",
+"beyond a chain of heavily fortified stronholds.",
+"",
+"Time to find this abominable fiend and kick its",
+"bones to the ends of time!"
+}
+
+cluster 52
+{
+	flat = BLOOD1
+	music = D_JP_WAS
+	exittext = "The Gatekeeper's evil face is splattered",
+"all over the place.  As its tattered corpse",
+"collapses, an inverted Gate forms and",
+"sucks down the shards of the last",
+"prototype Accelerator, not to mention the",
+"few remaining demons.  You're done. Hell",
+"has gone back to pounding bad dead folks",
+"instead of good live ones.  Remember to",
+"tell your grandkids to put a rocket",
+"launcher in your coffin. If you go to Hell",
+"when you die, you'll need it for some",
+"final cleaning-up ...You relish the echo of the explosions as your",
+"opponent's fragments fall back into the black",
+"pit of Hell.",
+"",
+"You make your way back to Earth amid fleeing",
+"monsters, their mutant flesh peeling from their",
+"tormented forms as they dissolve with the warped",
+"reality that brought them forth.",
+"",
+"Maybe now that Hell is dead your fellows will",
+"look up in wonder to free themselves from the",
+"blood frenzied madness and destruction that",
+"nearly spelled a final doom for our universe."
+}
+
+cluster 53
+{
+	flat = RROCK03
+	music = D_JP_WAS
+	entertext = "You've found the second-hardest level we",
+"got. Hope you have a saved game a level or",
+"two previous.  If not, be prepared to die",
+"aplenty. For master marines only.\"They lay in the stone houses of their court",
+"preserved by spells for a glorious resurrection",
+"when the stars and the earth might once more",
+"be ready for them.\""
+}
+
+cluster 54
+{
+	flat = FLAT5_8
+	music = D_JP_WAS
+	entertext = "Betcha wondered just what WAS the hardest",
+"level we had ready for ya?  Now you know.",
+"No one gets out alive.As you land on the teleportation device, the",
+"stink of a horde of unwashed monstrosities",
+"pervades the air..."
+}

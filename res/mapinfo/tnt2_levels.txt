@@ -1,0 +1,438 @@
+// TNT: Devilution mapinfo
+
+defaultmap
+{
+	ExitPic = "T2_INTER"
+	InterMusic = "T2_DM2INT"
+}
+
+map T2_MAP01 "Obituary"
+{
+	next = T2_MAP02
+	secretnext = T2_MAP02
+	sky1 = "SKY1"
+	cluster = 43
+	par = 60
+	music = T2_RUNNIN
+}
+
+map T2_MAP02 "Grime And Punishment"
+{
+	next = T2_MAP03
+	secretnext = T2_MAP03
+	sky1 = "SKY1"
+	cluster = 43
+	par = 165
+	music = T2_STALKS
+}
+
+map T2_MAP03 "Brimstone Labs"
+{
+	next = T2_MAP04
+	secretnext = T2_MAP04
+	sky1 = "SKY1"
+	cluster = 43
+	par = 390
+	music = T2_COUNTD
+}
+
+map T2_MAP04 "Subterra Incognita"
+{
+	next = T2_MAP05
+	secretnext = T2_MAP05
+	sky1 = "SKY1"
+	cluster = 43
+	par = 240
+	music = T2_BETWEE
+}
+
+map T2_MAP05 "Littoral"
+{
+	next = T2_MAP06
+	secretnext = T2_MAP06
+	sky1 = "SKY1"
+	cluster = 43
+	par = 240
+	music = T2_DOOM
+}
+
+map T2_MAP06 "Aquarium"
+{
+	next = T2_MAP07
+	secretnext = T2_MAP07
+	sky1 = "SKY1"
+	cluster = 43
+	par = 255
+	music = T2_THE_DA
+}
+
+map T2_MAP07 "Campground"
+{
+	next = T2_MAP08
+	secretnext = T2_MAP08
+	sky1 = "SKY1"
+	cluster = 44
+	par = 120
+	sucktime = 1
+	music = T2_SHAWN
+}
+
+map T2_MAP08 "Hydrogenics"
+{
+	next = T2_MAP09
+	secretnext = T2_MAP09
+	sky1 = "SKY1"
+	cluster = 44
+	par = 270
+	music = T2_DDTBLU
+}
+
+map T2_MAP09 "Heterodoxical Hindrance"
+{
+	next = T2_MAP10
+	secretnext = T2_MAP10
+	sky1 = "SKY1"
+	cluster = 44
+	par = 315
+	music = T2_IN_CIT
+}
+
+map T2_MAP10 "Surface Tension"
+{
+	next = T2_MAP11
+	secretnext = T2_MAP11
+	sky1 = "SKY1"
+	cluster = 44
+	par = 345
+	music = T2_DEAD
+}
+
+map T2_MAP11 "The Voyager"
+{
+	next = T2_MAP12
+	secretnext = T2_MAP12
+	sky1 = "SKY1"
+	cluster = 44
+	par = 75
+	music = T2_STLKS2
+}
+
+map T2_MAP12 "Ion Flux"
+{
+	next = T2_MAP13
+	secretnext = T2_MAP13
+	sky1 = "SKY2"
+	cluster = 45
+	par = 150
+	music = T2_THEDA2
+}
+
+map T2_MAP13 "Nostalgia Drive"
+{
+	next = T2_MAP14
+	secretnext = T2_MAP14
+	sky1 = "SKY2"
+	cluster = 45
+	par = 90
+	music = T2_DOOM2
+}
+
+map T2_MAP14 "Parhelion Labs"
+{
+	next = T2_MAP15
+	secretnext = T2_MAP15
+	sky1 = "SKY2"
+	cluster = 45
+	par = 90
+	music = T2_DDTBL2
+}
+
+map T2_MAP15 "Altered State"
+{
+	next = T2_MAP16
+	secretnext = T2_MAP31
+	sky1 = "SKY2"
+	cluster = 45
+	par = 180
+	music = T2_RUNNI2
+}
+
+map T2_MAP16 "Techmine Superior"
+{
+	next = T2_MAP17
+	secretnext = T2_MAP17
+	sky1 = "SKY2"
+	cluster = 45
+	par = 270
+	music = T2_DEAD2
+}
+
+map T2_MAP17 "Galapagos"
+{
+	next = T2_MAP18
+	secretnext = T2_MAP18
+	sky1 = "SKY2"
+	cluster = 45
+	par = 165
+	music = T2_STLKS3
+}
+
+map T2_MAP18 "Forsaken Harbor"
+{
+	next = T2_MAP19
+	secretnext = T2_MAP19
+	sky1 = "SKY2"
+	cluster = 45
+	par = 540
+	music = T2_ROMERO
+}
+
+map T2_MAP19 "The Habitatening"
+{
+	next = T2_MAP20
+	secretnext = T2_MAP20
+	sky1 = "SKY2"
+	cluster = 45
+	par = 330
+	music = T2_SHAWN2
+}
+
+map T2_MAP20 "The Infernal Carrier"
+{
+	next = T2_MAP21
+	secretnext = T2_MAP21
+	sky1 = "SKY2"
+	cluster = 45
+	par = 195
+	music = T2_MESSAG
+}
+
+map T2_MAP21 "Star Bridge"
+{
+	next = T2_MAP22
+	secretnext = T2_MAP22
+	sky1 = "SKY3"
+	cluster = 46
+	par = 465
+	music = T2_COUNT2
+}
+
+map T2_MAP22 "Solitude"
+{
+	next = T2_MAP23
+	secretnext = T2_MAP23
+	sky1 = "SKY3"
+	cluster = 46
+	par = 240
+	music = T2_DDTBL3
+}
+
+map T2_MAP23 "Pulverizer"
+{
+	next = T2_MAP24
+	secretnext = T2_MAP24
+	sky1 = "SKY3"
+	cluster = 46
+	par = 90
+	music = T2_AMPIE
+}
+
+map T2_MAP24 "Tides Of Fire"
+{
+	next = T2_MAP25
+	secretnext = T2_MAP25
+	sky1 = "SKY3"
+	cluster = 46
+	par = 990
+	music = T2_THEDA3
+}
+
+map T2_MAP25 "Hard Wired"
+{
+	next = T2_MAP26
+	secretnext = T2_MAP26
+	sky1 = "SKY3"
+	cluster = 46
+	par = 300
+	music = T2_ADRIAN
+}
+
+map T2_MAP26 "Last Stop At The Border"
+{
+	next = T2_MAP27
+	secretnext = T2_MAP27
+	sky1 = "SKY3"
+	cluster = 46
+	par = 45
+	music = T2_MESSG2
+}
+
+map T2_MAP27 "Relayer"
+{
+	next = T2_MAP28
+	secretnext = T2_MAP28
+	sky1 = "SKY3"
+	cluster = 46
+	par = 150
+	music = T2_ROMER2
+}
+
+map T2_MAP28 "Lethe'S Falls"
+{
+	next = T2_MAP29
+	secretnext = T2_MAP29
+	sky1 = "SKY3"
+	cluster = 46
+	par = 150
+	music = T2_TENSE
+}
+
+map T2_MAP29 "Nexus Of The Defeated"
+{
+	next = T2_MAP30
+	secretnext = T2_MAP30
+	sky1 = "SKY3"
+	cluster = 46
+	par = 435
+	music = T2_SHAWN3
+}
+
+map T2_MAP30 "The New Technology"
+{
+	sky1 = "SKY3"
+	cluster = 46
+	par = 420
+	music = T2_OPENIN
+	next = endgame
+}
+
+map T2_MAP31 "Caesar"
+{
+	next = T2_MAP16
+	secretnext = T2_MAP32
+	sky1 = "SKY3"
+	cluster = 47
+	par = 690
+	music = T2_EVIL
+}
+
+map T2_MAP32 "Null Set"
+{
+	next = T2_MAP16
+	secretnext = T2_MAP16
+	sky1 = "SKY3"
+	cluster = 48
+	par = 210
+	music = T2_ULTIMA
+}
+
+map T2_MAP33 "Tech Centre"
+{
+	next = T2_MAP33
+	sky1 = "SKY1"
+	cluster = 48
+	par = 1260
+	music = T2_THE_DA
+}
+
+cluster 43
+{
+	flat = BLOOD1
+	music = T2_REAT2_M
+	exittext = "THE BEACHHEADS OF IO LAY STREWN BEHIND YOU",
+"A BLOODY MESS. NO DOUBT YOU'D BE IMPRESSED",
+"WITH THE UAC'S RE-EMERGENCE AS A",
+"TERRAFORMING SUPERPOWER IF NOT FOR ANOTHER",
+"HORRIFYING DISCOVERY.",
+"",
+"FRAGMENTS OF THE DEMON-SPITTER YOU BLEW UP",
+"HAVE SOMEHOW SURVIVED AND METASTASIZED ",
+"UNDER THE SURFACE, MERGING WITH THE MOON ",
+"TO BECOME SOMETHING MORE THAN DEMON.",
+"THAT SOUNDS BAD. REALLY BAD. YOU'RE NOT ",
+"SURE A ROCKET LAUNCHER IS GOING TO CUT IT,",
+"THIS TIME."
+}
+
+cluster 44
+{
+	flat = TEKDARKF
+	music = T2_REAT2_M
+	exittext = "YOU NEVER THOUGHT YOU'D LIVE TO SEE A MOON",
+"ERUPT IN BOILS OF CRAZED DEMONS, BUT YOU",
+"NEVER EXPECTED TO TRAVEL TO THE FUTURE,",
+"EITHER. THE UAC'S INVOLVEMENT",
+"IN THE GROWTH OF THIS MONSTROSITY IS",
+"THE LEAST SURPRISING REVELATION SO FAR.",
+"",
+"BEYOND THE ORBIT OF IO LOOMS THE INFERNAL",
+"CARRIER. YOU'VE HAD NO LUCK IN FINDING",
+"SOMETHING BIG ENOUGH TO BLOW UP HERE ON THE",
+"SURFACE, SO YOU FIGURE IF IT'S FUELLED BY FIRE",
+"AND MAGIC IT'LL KNOW HOW TO EXPLODE.",
+"",
+"YOU'RE NOT CERTAIN IT'LL WORK, BUT THE",
+"GROUND BENEATH YOU STIRS...",
+"BETTER GET A MOVE ON."
+}
+
+cluster 45
+{
+	flat = FLOOR0_4
+	music = T2_REAT2_M
+	exittext = "AT LONG LAST, THE TIDES OF FIRE SUBSIDE",
+"AND YOU ARE THE ONLY BREATHING THING LEFT",
+"ABOARD THE SHIP. YOU TAKE A MOMENT TO REST,",
+"RELISHING WHAT WOULD BE YOUR FINAL VICTORY,",
+"BEFORE STARTING YOUR CLIMB TO THE REACTOR",
+"CONTROL ROOM.",
+"",
+"NOT FOR THE FIRST TIME, HOWEVER, FATE HAS",
+"OTHER IDEAS. A HIDDEN PASSAGE OPENS AND",
+"YOU FOLLOW A VOICE INTO THE DARKNESS..."
+}
+
+cluster 46
+{
+	flat = ROCKCK1
+	music = T2_REAT2_M
+	exittext = "BAPHOMET. GATEKEEPER. THE ICONS OF SIN.",
+"THE FINAL DOOM HAD WROUGHT THEM ALL, AND",
+"THROUGH TIME HAD SUBVERTED THE TECHNOLOGY",
+"THAT TRIED TO CONTROL IT. YOU WERE THE",
+"ONLY ONE WHO COULD CHALLENGE ITS DOMINION,",
+"AND NOW YOU HAVE DEFORMED THE FACE OF EVIL",
+"WITH YOUR CHISELED GOOD LOOKS. NICE WORK.",
+"",
+"BIO SOCIETY NEVER READ DESCARTES, BUT ABOVE",
+"THE BLUE FIELDS OF IO, YOU FIND THE WORDS:",
+""I THINK, THEREFORE I AM A PLANET.""
+}
+
+cluster 47
+{
+	flat = METALFL4
+	music = T2_REAT2_M
+	entertext = "A WISE MAN ONCE SAID, YOU DON'T WIN FRIENDS",
+"WITH SALAD. JUST WHAT WAS IN THAT DEL CACO",
+"Caesar DRESSING? AS YOU STEP OUT OF THE",
+"FRIDGE, ONE THING BECOMES CLEAR: YOU WON'T",
+"BE WINNING ANY FRIENDS HERE, EITHER."
+}
+
+cluster 48
+{
+	flat = BLUDSOUP
+	music = T2_REAT2_M
+	entertext = "AS YOU COLLAPSE INTO THE SCREAMING VOID,",
+	"YOU REFLECT UPON YOUR LAST VACATION. AH,",
+	"TO FEEL THE BLOOD-WARMED WATERS OF PUERTO",
+	"RICO LAPPING AT YOUR BOOTS AGAIN. EVEN THE",
+	"DEFILED TOMBS OF EGYPT WOULD BE A WELCOME",
+	"RETREAT FROM THIS GRECO-ROMAN NIGHTMARE...",
+	"",
+	"SAND. DARKNESS. YOU CLAMBER TO YOUR FEET.",
+	"WHEN ALL THIS IS OVER, YOU'RE GOING TO",
+	"MAKE DAMN SURE HELL GETS A TERRIBLE YELP",
+	"REVIEW. "WORST TRAVEL AGENCY EVER.""
+}
