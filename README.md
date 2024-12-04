@@ -39,6 +39,7 @@ Here is the official list of WADs that WadSmoosh Plus will recognize:
 - No Rest for the Living (`nerve.wad`)
 - The Master Levels (the 20 unmodified WAD files from the retail release)
 - Final Doom (`tnt.wad` and `plutonia.wad`)
+- Legacy of Rust (id1.wad, id1-res.wad, id24res.wad, and iddm1.wad from the KEX-based re-release)
 - TNT: Revilution (`tntr.wad`)
 - Plutonia 2 (`pl2.wad`)
 - Perdition's Gate (`perdgate.wad`)

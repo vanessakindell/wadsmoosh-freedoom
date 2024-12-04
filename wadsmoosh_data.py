@@ -5,7 +5,7 @@
 RES_FILES = [
     'mapinfo.txt', 'language.txt', 'endoom', 'smooshed.txt',
     'textures.common', 'textures.doom1', 'textures.doom2',
-    'textures.freedoom1', 'textures.freedoom2',
+    'textures.freedoom1', 'textures.freedoom2','textures.id1',
     'textures.tnt', 'textures.plut','textures.perdgate', 'animdefs.txt',
     'textures.hell2pay','textures.neis', 'textures.tntr', 'textures.pl2', 
     'graphics/M_DOOM.lmp', 'graphics/TITLEPIC.lmp',
@@ -16,6 +16,7 @@ RES_FILES = [
     'mapinfo/tnt_levels.txt', 'mapinfo/plutonia_levels.txt',
     'mapinfo/masterlevels.txt', 'mapinfo/sigil_levels.txt',
     'mapinfo/sigil2_levels.txt', 'mapinfo/perdgate_levels.txt',
+    'mapinfo/id1_levels.txt',
     'mapinfo/hell2pay_levels.txt','mapinfo/neis_levels.txt',
     'mapinfo/freedoom1_levels.txt', 'mapinfo/freedoom2_levels.txt',
     'mapinfo/tntr_levels.txt','mapinfo/pl2_levels.txt',
@@ -40,7 +41,7 @@ TIDY_DIR_EXTENSIONS = {
 # list of files we can extract from
 WADS = ['doom', 'doom2', 'doom2bfg', 'tnt', 'plutonia', 'nerve', 'sigil', 'sigil_shreds',
         'sigil2', 'doomunity', 'doom2unity', 'nerveu', 'tntu', 'plutoniau', 'extras', 'perdgate', 'hell2pay',
-        'neis', 'freedoom1', 'freedoom2','doom3do', 'tntr', 'pl2', 'jptr_v40']
+        'neis', 'freedoom1', 'freedoom2','doom3do', 'tntr', 'pl2', 'jptr_v40', 'id1', 'id1-res', 'id24res']
 
 # wads to search for and report if found
 REPORT_WADS = ['doom', 'sigil', 'sigil_shreds', 'sigil2',
@@ -49,7 +50,8 @@ REPORT_WADS = ['doom', 'sigil', 'sigil_shreds', 'sigil2',
                'nerveu', 'tntu', 'plutoniau', 'extras', 'perdgate',
                'hell2pay', 'neis', 'pl2', 'tntr', 'jptr_v40',
                'hell2pay', 'neis', 'pl2', 'tntr',
-               'freedoom1', 'freedoom2','doom3do']
+               'freedoom1', 'freedoom2','doom3do',
+               'id1', 'id1-res', 'id24res']
 
 # lists of lumps common to doom 1+2
 COMMON_LUMPS = [
@@ -79,6 +81,9 @@ WAD_LUMP_LISTS = {
     # (buckethead tracks use the same names as jimmy's midi)
     'sigil_shreds': ['music_sigil'],
     'sigil2': ['graphics_sigil2', 'music_sigil2', 'patches_sigil2', 'data_sigil2', 'flats_sigil2'],
+    'id1': ['data_id1', 'flats_id1', 'graphics_id1', 'music_id1', 'patches_id1', 'sounds_id1', 'sprites_id1'],
+    'id1-res': ['data_id1-res'],
+    'id24res': ['graphics_id24res'],
     # widescreen assets from unity ports
     'doomunity': ['graphics_doomunity'],
     'doom2unity': ['graphics_doom2unity'],
@@ -109,6 +114,7 @@ WAD_MAP_PREFIXES = {
     'masterlevels': 'ML_',
     'sigil': '',
     'sigil2': '',
+    'id1': 'LR_',
     'hell2pay': 'HP_',
     'perdgate': 'PG_',
     'neis': 'NS_',
