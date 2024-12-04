@@ -1,3 +1,51 @@
+##
+## This program is free software: you can redistribute it and/or modify
+## it under the terms of the GNU General Public License as published by
+## the Free Software Foundation, either version 3 of the License, or
+## (at your option) any later version.
+##
+## This program is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+## GNU General Public License for more details.
+##
+## You should have received a copy of the GNU General Public License
+## along with this program.  If not, see http://www.gnu.org/licenses/
+##
+##-----------------------------------------------------------------------------
+##
+##
+## This code is derived from WadSmoosh 1.41, which is covered by the following permissions:
+##
+##------------------------------------------------------------------------------------------
+##
+## The MIT License (MIT)
+##
+## Copyright (c) 2016-2023 JP LeBreton
+##
+## Permission is hereby granted, free of charge, to any person obtaining a copy
+## of this software and associated documentation files (the "Software"), to deal
+## in the Software without restriction, including without limitation the rights
+## to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+## copies of the Software, and to permit persons to whom the Software is
+## furnished to do so, subject to the following conditions:
+##
+## The above copyright notice and this permission notice shall be included in
+## all copies or substantial portions of the Software.
+##
+## THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+## IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+## FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+## AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+## LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+## OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+## THE SOFTWARE.
+##
+##------------------------------------------------------------------------------------------
+##
+
+## Support for Legacy of Rust from Wadfusion by Owlet VII
+
 import os, sys, time
 from shutil import copyfile
 from zipfile import ZipFile, ZIP_DEFLATED
@@ -334,6 +382,36 @@ def copy_resources():
                  DEST_DIR + 'mapinfo/doom2_secret_levels.txt')
     copyfile(RES_DIR + "iwadinfo.txt", DEST_DIR + "iwadinfo.txt")
 
+def copy_resources_id1():
+    # copy id1 scripts if id1 is present
+    logg('Copying id1 resources...')
+    copyfile(RES_DIR + 'zscript/wf_id1weap.zs', DEST_DIR + 'zscript/wf_id1weap.zs')
+    copyfile(RES_DIR + 'zscript/wf_sbar.id1.zs', DEST_DIR + 'zscript/wf_sbar.zs')
+    # uncomment scripts
+    logg('Enabling id1 scripts...')
+    id1_off = '//#include \"zscript/wf_id1weap.zs\"'
+    id1_on = '#include \"zscript/wf_id1weap.zs\"'
+    with open(DEST_DIR + 'zscript.txt', 'r') as file:
+        tmp_file = file.read()
+        tmp_file = tmp_file.replace(id1_off, id1_on)
+    with open(DEST_DIR + 'zscript.txt', 'w') as file:
+        file.write(tmp_file)
+    # add event handler
+    id1_off = '//, \"Id1WeaponHandler\"\n\tStatusBarClass = \"WadFusionStatusBar\"'
+    id1_on = ', \"Id1WeaponHandler\"\n\tStatusBarClass = \"WadFusionStatusBarId24\"'
+    with open(DEST_DIR + 'mapinfo.txt', 'r') as file:
+        tmp_file = file.read()
+        tmp_file = tmp_file.replace(id1_off, id1_on)
+    with open(DEST_DIR + 'mapinfo.txt', 'w') as file:
+        file.write(tmp_file)
+    # duplicate doom1 sky patches to suppress errors
+    if not get_wad_filename('doom'):
+        logg('Duplicating doom1 sky patches to suppress errors...')
+        copyfile(DEST_DIR + 'patches/SKYE1.lmp', DEST_DIR + 'patches/SKY1.lmp')
+        copyfile(DEST_DIR + 'patches/SKYE2.lmp', DEST_DIR + 'patches/SKY2.lmp')
+        copyfile(DEST_DIR + 'patches/SKYE3.lmp', DEST_DIR + 'patches/SKY3.lmp')
+        copyfile(DEST_DIR + 'patches/SKYE4.lmp', DEST_DIR + 'patches/SKY4.lmp')
+
 def get_report_found():
     found = []
     for wadname in REPORT_WADS:
@@ -379,10 +457,14 @@ def get_eps(wads_found):
             eps += ['TNT: Evilution']
         elif wadname == 'plutonia':
             eps += ['The Plutonia Experiment']
+        elif wadname == 'id1' and 'doom2' in wads_found and 'id1-res' in wads_found and 'id24res' in wads_found:
+            eps += ['The Vulcan Abyss', 'Counterfeit Eden']
         elif wadname == 'tntr' and 'tnt' in wads_found:
             eps += ['TNT: Revilution']
         elif wadname == 'pl2' and 'plutonia' in wads_found:
             eps += ['Plutonia 2']
+        elif wadname == 'prcp' and 'plutonia' in wads_found:
+            eps += ['Plutonia Revisited']
         elif wadname == 'hell2pay' and 'doom2' in wads_found:
             eps += ['Hell To Pay']
         elif wadname == 'perdgate' and 'doom2' in wads_found:
@@ -449,7 +531,7 @@ def main():
     if not os.path.exists(DEST_DIR):
         os.mkdir(DEST_DIR)
     for dirname in ['flats', 'graphics', 'music', 'maps', 'mapinfo',
-                    'patches', 'sounds', 'sprites']:
+                    'patches', 'sounds', 'sprites', 'zscript']:
         if not os.path.exists(DEST_DIR + dirname):
             os.mkdir(DEST_DIR + dirname)
     # copy pre-authored lumps eg mapinfo
@@ -481,6 +563,15 @@ def main():
             continue
         if iwad_name == 'sigil2_mp3' and not get_wad_filename('sigil2'):
             logg('Skipping sigil2_mp3.wad as doom.wad is not present', error=True)
+            continue
+        if iwad_name == 'id1' and not get_wad_filename('doom2'):
+            logg('  ERROR: Skipping id1.wad as doom2.wad is not present', error=True)
+            continue
+        if iwad_name == 'id1' and not get_wad_filename('id1-res'):
+            logg('  ERROR: Skipping id1.wad as id1-res.wad is not present', error=True)
+            continue
+        if iwad_name == 'id1' and not get_wad_filename('id24res'):
+            logg('  ERROR: Skipping id1.wad as id24res.wad is not present', error=True)
             continue
         if iwad_name == 'doom3do' and not get_wad_filename('doom'):
             logg('Skipping doom3do.wad as doom.wad is not present', error=True)
@@ -518,6 +609,9 @@ def main():
     # only supported versions of these @ http://classicdoom.com/xboxspec.htm
     if get_wad_filename('sewers') and get_wad_filename('betray') and should_extract:
         add_xbox_levels()
+    # copy id1 scripts if id1 is present
+    if get_wad_filename('id1') and get_wad_filename('id1-res') and get_wad_filename('id24res') and get_wad_filename('doom2') and should_extract:
+        copy_resources_id1()
     # copy custom GENMIDI, if user hasn't deleted it
     genmidi_filename = 'GENMIDI.lmp'
     if os.path.exists(RES_DIR + genmidi_filename):
