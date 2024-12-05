@@ -1,0 +1,477 @@
+// Doom Zero mapinfo
+
+defaultmap
+{
+	ExitPic = "DZ_INTER"
+	InterMusic = "DZ_DM2INT"
+}
+
+map DZ_MAP01 "High-Rise Roof"
+{
+	next = DZ_MAP02
+	secretnext = DZ_MAP02
+	sky1 = "SKY1"
+	cluster = 43
+	par = 60
+	music = DZ_RUNNIN
+}
+
+map DZ_MAP02 "Toxic Tower"
+{
+	next = DZ_MAP03
+	secretnext = DZ_MAP03
+	sky1 = "SKY1"
+	cluster = 43
+	par = 165
+	music = DZ_STALKS
+}
+
+map DZ_MAP03 "Marble Zone"
+{
+	next = DZ_MAP04
+	secretnext = DZ_MAP04
+	sky1 = "SKY1"
+	cluster = 43
+	par = 390
+	music = DZ_COUNTD
+}
+
+map DZ_MAP04 "Triple Town"
+{
+	next = DZ_MAP05
+	secretnext = DZ_MAP05
+	sky1 = "SKY1"
+	cluster = 43
+	par = 240
+	music = DZ_BETWEE
+}
+
+map DZ_MAP05 "The Pits"
+{
+	next = DZ_MAP06
+	secretnext = DZ_MAP06
+	sky1 = "SKY1"
+	cluster = 43
+	par = 240
+	music = DZ_DOOM
+}
+
+map DZ_MAP06 "Echo Halls"
+{
+	next = DZ_MAP07
+	secretnext = DZ_MAP07
+	sky1 = "SKY1"
+	cluster = 43
+	par = 255
+	music = DZ_THE_DA
+}
+
+map DZ_MAP07 "Claustrophobia"
+{
+	next = DZ_MAP08
+	secretnext = DZ_MAP08
+	sky1 = "SKY1"
+	cluster = 44
+	par = 120
+	sucktime = 1
+	music = DZ_SHAWN
+}
+
+map DZ_MAP08 "Module Base"
+{
+	next = DZ_MAP09
+	secretnext = DZ_MAP09
+	sky1 = "SKY1"
+	cluster = 44
+	par = 270
+	music = DZ_DDTBLU
+}
+
+map DZ_MAP09 "Ancient Archives"
+{
+	next = DZ_MAP10
+	secretnext = DZ_MAP10
+	sky1 = "SKY1"
+	cluster = 44
+	par = 315
+	music = DZ_IN_CIT
+}
+
+map DZ_MAP10 "Leap Gates"
+{
+	next = DZ_MAP11
+	secretnext = DZ_MAP11
+	sky1 = "SKY1"
+	cluster = 44
+	par = 345
+	music = DZ_DEAD
+}
+
+map DZ_MAP11 "Too Close To Home"
+{
+	next = DZ_MAP12
+	secretnext = DZ_MAP12
+	sky1 = "SKY1"
+	cluster = 44
+	par = 75
+	music = DZ_STLKS2
+}
+
+map DZ_MAP12 "Underland"
+{
+	next = DZ_MAP13
+	secretnext = DZ_MAP13
+	sky1 = "SKY2"
+	cluster = 45
+	par = 150
+	music = DZ_THEDA2
+}
+
+map DZ_MAP13 "Tease"
+{
+	next = DZ_MAP14
+	secretnext = DZ_MAP14
+	sky1 = "SKY2"
+	cluster = 45
+	par = 90
+	music = DZ_DOOM2
+}
+
+map DZ_MAP14 "Crust"
+{
+	next = DZ_MAP15
+	secretnext = DZ_MAP15
+	sky1 = "SKY2"
+	cluster = 45
+	par = 90
+	music = DZ_DDTBL2
+}
+
+map DZ_MAP15 "Peak Facility"
+{
+	next = DZ_MAP16
+	secretnext = DZ_MAP31
+	sky1 = "SKY2"
+	cluster = 45
+	par = 180
+	music = DZ_RUNNI2
+}
+
+map DZ_MAP16 "Natural Supply"
+{
+	next = DZ_MAP17
+	secretnext = DZ_MAP17
+	sky1 = "SKY2"
+	cluster = 45
+	par = 270
+	music = DZ_DEAD2
+}
+
+map DZ_MAP17 "The Testing Labs"
+{
+	next = DZ_MAP18
+	secretnext = DZ_MAP18
+	sky1 = "SKY2"
+	cluster = 45
+	par = 165
+	music = DZ_STLKS3
+}
+
+map DZ_MAP18 "Atom Transporter"
+{
+	next = DZ_MAP19
+	secretnext = DZ_MAP19
+	sky1 = "SKY2"
+	cluster = 45
+	par = 540
+	music = DZ_ROMERO
+}
+
+map DZ_MAP19 "Quantum Processing"
+{
+	next = DZ_MAP20
+	secretnext = DZ_MAP20
+	sky1 = "SKY2"
+	cluster = 45
+	par = 330
+	music = DZ_SHAWN2
+}
+
+map DZ_MAP20 "Familiar Face"
+{
+	next = DZ_MAP21
+	secretnext = DZ_MAP21
+	sky1 = "SKY2"
+	cluster = 45
+	par = 195
+	music = DZ_MESSAG
+}
+
+map DZ_MAP21 "Starbourn"
+{
+	next = DZ_MAP22
+	secretnext = DZ_MAP22
+	sky1 = "SKY3"
+	cluster = 46
+	par = 465
+	music = DZ_COUNT2
+}
+
+map DZ_MAP22 "The Cracks"
+{
+	next = DZ_MAP23
+	secretnext = DZ_MAP23
+	sky1 = "SKY3"
+	cluster = 46
+	par = 240
+	music = DZ_DDTBL3
+}
+
+map DZ_MAP23 "Atmos Caves"
+{
+	next = DZ_MAP24
+	secretnext = DZ_MAP24
+	sky1 = "SKY3"
+	cluster = 46
+	par = 90
+	music = DZ_AMPIE
+}
+
+map DZ_MAP24 "Booster Hub"
+{
+	next = DZ_MAP25
+	secretnext = DZ_MAP25
+	sky1 = "SKY3"
+	cluster = 46
+	par = 990
+	music = DZ_THEDA3
+}
+
+map DZ_MAP25 "Abandoned Compound"
+{
+	next = DZ_MAP26
+	secretnext = DZ_MAP26
+	sky1 = "SKY3"
+	cluster = 46
+	par = 300
+	music = DZ_ADRIAN
+}
+
+map DZ_MAP26 "Fortification"
+{
+	next = DZ_MAP27
+	secretnext = DZ_MAP27
+	sky1 = "SKY3"
+	cluster = 46
+	par = 45
+	music = DZ_MESSG2
+}
+
+map DZ_MAP27 "The Junction"
+{
+	next = DZ_MAP28
+	secretnext = DZ_MAP28
+	sky1 = "SKY3"
+	cluster = 46
+	par = 150
+	music = DZ_ROMER2
+}
+
+map DZ_MAP28 "Suspension"
+{
+	next = DZ_MAP29
+	secretnext = DZ_MAP29
+	sky1 = "SKY3"
+	cluster = 46
+	par = 150
+	music = DZ_TENSE
+}
+
+map DZ_MAP29 "The Rematch"
+{
+	next = DZ_MAP30
+	secretnext = DZ_MAP30
+	sky1 = "SKY3"
+	cluster = 46
+	par = 435
+	music = DZ_SHAWN3
+}
+
+map DZ_MAP30 "The Sarcophagus"
+{
+	sky1 = "SKY3"
+	cluster = 46
+	par = 420
+	music = DZ_OPENIN
+	next = endgame
+}
+
+map DZ_MAP31 "Meat"
+{
+	next = DZ_MAP16
+	secretnext = DZ_MAP32
+	sky1 = "SKY3"
+	cluster = 47
+	par = 690
+	music = DZ_EVIL
+}
+
+map DZ_MAP32 "Dark Roof"
+{
+	next = DZ_MAP16
+	secretnext = DZ_MAP16
+	sky1 = "SKY3"
+	cluster = 48
+	par = 210
+	music = DZ_ULTIMA
+}
+
+cluster 43
+{
+	flat = BLOOD1
+	music = DZ_READZ_M
+	exittext = "YOU HAVE ENTERED DEEPLY INTO THE INFESTED",
+"STARPORT. BUT SOMETHING IS WRONG. THE",
+"MONSTERS HAVE BROUGHT THEIR OWN REALITY",
+"WITH THEM, AND THE STARPORT'S TECHNOLOGY",
+"IS BEING SUBVERTED BY THEIR PRESENCE.",
+"",
+"AHEAD, YOU SEE AN OUTPOST OF HELL, A",
+"FORTIFIED ZONE. IF YOU CAN GET PAST IT,",
+"YOU CAN PENETRATE INTO THE HAUNTED HEART",
+"OF THE STARBASE AND FIND THE CONTROLLING",
+"SWITCH WHICH HOLDS EARTH'S POPULATION",
+"HOSTAGE.",
+"IT'S BEEN YEARS SINCE THE DESTRUCTION OF",
+"THE ICON OF SIN AND THE ABOMINATION KNOWN",
+"AS THE TITAN, BUT NOW ALL OF A SUDDEN,",
+"MORE DEMONS ROAM THE EARTH ONCE AGAIN.",
+"",
+"YOU REALIZE THERE MUST BE YET ANOTHER",
+"PORTAL THAT HAS RECENTLY OPENED, SPEWING",
+"OUT A FRESH, NEW ARMY OF HELL'S ELITE.",
+"",
+"THEY ARE RAGE, BRUTAL, WITHOUT MERCY. BUT",
+"YOU, YOU WILL BE WORSE. RIP AND TEAR UNTIL",
+"IT IS DONE!"
+}
+
+cluster 44
+{
+	flat = TEKDARKF
+	music = DZ_READZ_M
+	exittext = "YOU HAVE WON! YOUR VICTORY HAS ENABLED",
+"HUMANKIND TO EVACUATE EARTH AND ESCAPE",
+"THE NIGHTMARE.  NOW YOU ARE THE ONLY",
+"HUMAN LEFT ON THE FACE OF THE PLANET.",
+"CANNIBAL MUTATIONS, CARNIVOROUS ALIENS,",
+"AND EVIL SPIRITS ARE YOUR ONLY NEIGHBORS.",
+"YOU SIT BACK AND WAIT FOR DEATH, CONTENT",
+"THAT YOU HAVE SAVED YOUR SPECIES.",
+"",
+"BUT THEN, EARTH CONTROL BEAMS DOWN A",
+"MESSAGE FROM SPACE: 'SENSORS HAVE LOCATED",
+"THE SOURCE OF THE ALIEN INVASION. IF YOU",
+"GO THERE, YOU MAY BE ABLE TO BLOCK THEIR",
+"ENTRY.  THE ALIEN BASE IS IN THE HEART OF",
+"YOUR OWN HOME CITY, NOT FAR FROM THE",
+"STARPORT.' SLOWLY AND PAINFULLY YOU GET",
+"UP AND RETURN TO THE FRAY.",
+"THE DEEPER YOU GO INTO THE CITY, THE DENSER",
+"THE DEMON POPULATION BECOMES UNTIL YOU",
+"FINALLY FIND THE SOURCE: A PIT LEADING TO",
+"WHAT MAY BE THE ORIGIN OF THE DEMONIC",
+"SPAWN.",
+"",
+"YOU FLICK THE BLOOD AND SWEAT OFF YOUR",
+"BROW, CLINCH YOUR WEAPON, AND THEN",
+"PROCEED TO LEAP DOWN INTO THE DEPTHS OF",
+"THE INFESTATION."
+}
+
+cluster 45
+{
+	flat = FLOOR0_4
+	music = DZ_READZ_M
+	exittext = "YOU ARE AT THE CORRUPT HEART OF THE CITY,",
+"SURROUNDED BY THE CORPSES OF YOUR ENEMIES.",
+"YOU SEE NO WAY TO DESTROY THE CREATURES'",
+"ENTRYWAY ON THIS SIDE, SO YOU CLENCH YOUR",
+"TEETH AND PLUNGE THROUGH IT.",
+"",
+"THERE MUST BE A WAY TO CLOSE IT ON THE",
+"OTHER SIDE. WHAT DO YOU CARE IF YOU'VE",
+"GOT TO GO THROUGH HELL TO GET TO IT?",
+"FINALLY. THE ONE BEHIND IT ALL IS THE",
+"DEMON WITCH HERSELF. YOU ENDURE THE",
+"ONSLAUGHT OF HER ENDLESSLY SPAWNING",
+"MINIONS, WAILING ON YOU WITH GLEEFUL",
+"VENGEANCE.",
+"",
+"BUT YOU MANAGE TO ESCAPE THROUGH WHAT",
+"LOOKS TO BE A PORTAL LEADING TO WHERE",
+"SHE CAME FROM. PERHAPS IT WILL TAKE YOU",
+"TO THE THING THAT COULD END HER!"
+}
+
+cluster 46
+{
+	flat = ROCKCK1
+	music = DZ_READZ_M
+	exittext = "THE HORRENDOUS VISAGE OF THE BIGGEST",
+"DEMON YOU'VE EVER SEEN CRUMBLES BEFORE",
+"YOU, AFTER YOU PUMP YOUR ROCKETS INTO",
+"HIS EXPOSED BRAIN. THE MONSTER SHRIVELS",
+"UP AND DIES, ITS THRASHING LIMBS",
+"DEVASTATING UNTOLD MILES OF HELL'S",
+"SURFACE.",
+"",
+"YOU'VE DONE IT. THE INVASION IS OVER.",
+"EARTH IS SAVED. HELL IS A WRECK. YOU",
+"WONDER WHERE BAD FOLKS WILL GO WHEN THEY",
+"DIE, NOW. WIPING THE SWEAT FROM YOUR",
+"FOREHEAD YOU BEGIN THE LONG TREK BACK",
+"HOME. REBUILDING EARTH OUGHT TO BE A",
+"LOT MORE FUN THAN RUINING IT WAS.",
+"WITH HER SUPPLY OF HUMAN BLOOD CUT OFF,",
+"AND HER BEATING HEART DESTROYED,",
+"EVERYTHING AROUND YOU WITHERS AND DIES.",
+"YOU'VE WON.",
+"",
+"BUT ARE THERE YET STILL MORE THAT NEEDS",
+"TO BE ERADICATED? YOU CONTINUE YOUR HUNT",
+"AND IT DOESN'T TAKE YOU LONG TO FIND MORE",
+"TO KILL. BUT IT WAS A TRAP! THEY WERE JUST",
+"FODDER, LEADING YOU TO YOUR CAPTURE.",
+"",
+"IF THE DEMONS CANNOT ELIMINATE YOU, THEN",
+"PERHAPS THEY CAN IMPRISON YOU. BUT FOR HOW",
+"LONG? THIS WILL ONLY DELAY YOU. YOU CAN'T",
+"BE STOPPED...AS LONG AS THEY EXIST!"
+}
+
+cluster 47
+{
+	flat = METALFL4
+	music = DZ_READZ_M
+	entertext = "CONGRATULATIONS, YOU'VE FOUND THE SECRET",
+"LEVEL! LOOKS LIKE IT'S BEEN BUILT BY",
+"HUMANS, RATHER THAN DEMONS. YOU WONDER",
+"WHO THE INMATES OF THIS CORNER OF HELL",
+"WILL BE.",
+"CONGRATULATIONS, YOU'VE FOUND THE SECRET",
+"LEVEL! BUT SOMETHING'S NOT RIGHT.",
+"THE WALLS, THEY'RE...THEY'RE TWITCHING!"
+}
+
+cluster 48
+{
+	flat = BLUDSOUP
+	music = DZ_READZ_M
+	entertext = "CONGRATULATIONS, YOU'VE FOUND THE",
+"SUPER SECRET LEVEL!  YOU'D BETTER",
+"BLAZE THROUGH THIS ONE!",
+"YOU'VE FOUND THE SUPER SECRET LEVEL, BUT",
+"THIS TIME YOU'RE SOMEWHERE YOU'VE ALREADY",
+"BEEN."
+}

@@ -44,6 +44,7 @@ Here is the official list of WADs that WadSmoosh Plus will recognize:
 - TNT: Revilution (`tntr.wad`)
 - Plutonia 2 (`pl2.wad`)
 - Plutonia Revisited (`prcp.wad`)
+- Doom Zero (`doomzero.wad`)
 - Perdition's Gate (`perdgate.wad`)
 - Hell To Pay (`hell2pay.wad`)
 - No End in Sight (`neis.wad`)
