@@ -13,6 +13,7 @@ include mapinfo/tnt2_levels.txt
 include mapinfo/plutonia_levels.txt
 include mapinfo/pl2_levels.txt
 include mapinfo/prcp_levels.txt
+include mapinfo/doomzero_levels.txt
 include mapinfo/id1_levels.txt
 include mapinfo/hell2pay_levels.txt
 include mapinfo/perdgate_levels.txt
@@ -130,6 +131,12 @@ episode P2_MAP01
 episode PRCP_MAP01
 {
 	name = "Plutonia Revisited"
+	optional
+}
+
+episode DZ_MAP01
+{
+	name = "Zero"
 	optional
 }
 

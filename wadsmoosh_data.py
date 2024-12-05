@@ -5,7 +5,7 @@
 RES_FILES = [
     'mapinfo.txt', 'language.txt', 'endoom', 'smooshed.txt',
     'textures.common', 'textures.doom1', 'textures.doom2',
-    'textures.freedoom1', 'textures.freedoom2','textures.id1',
+    'textures.freedoom1', 'textures.freedoom2','textures.id1','textures.doomzero',
     'textures.tnt', 'textures.plut','textures.perdgate', 'animdefs.txt',
     'textures.hell2pay','textures.neis', 'textures.tntr', 'textures.tnt2', 'textures.pl2',
     'graphics/M_DOOM.lmp', 'graphics/TITLEPIC.lmp',
@@ -16,12 +16,12 @@ RES_FILES = [
     'mapinfo/tnt_levels.txt', 'mapinfo/plutonia_levels.txt',
     'mapinfo/masterlevels.txt', 'mapinfo/sigil_levels.txt',
     'mapinfo/sigil2_levels.txt', 'mapinfo/perdgate_levels.txt',
-    'mapinfo/id1_levels.txt','mapinfo/tnt2_levels.txt',
+    'mapinfo/id1_levels.txt','mapinfo/tnt2_levels.txt','mapinfo/doomzero_levels.txt',
     'mapinfo/hell2pay_levels.txt','mapinfo/neis_levels.txt',
     'mapinfo/freedoom1_levels.txt', 'mapinfo/freedoom2_levels.txt',
     'mapinfo/tntr_levels.txt','mapinfo/pl2_levels.txt','mapinfo/prcp_levels.txt',
     'mapinfo/jptr_levels.txt',
-    'menudef.txt', 'cvarinfo.txt', 'zscript.txt'
+    'menudef.txt', 'cvarinfo.txt', 'zscript.txt', 'DEHACKED.txt'
 ]
 
 # files within pk3 dir that will be removed before a new run
@@ -40,7 +40,7 @@ TIDY_DIR_EXTENSIONS = {
 # list of files we can extract from
 WADS = ['doom', 'doom2', 'doom2bfg', 'tnt', 'plutonia', 'nerve', 'sigil', 'sigil_shreds',
         'sigil2', 'doomunity', 'doom2unity', 'nerveu', 'tntu', 'tnt2_beta6', 'plutoniau', 'extras', 'perdgate', 'hell2pay',
-        'neis', 'freedoom1', 'freedoom2','doom3do', 'tntr', 'pl2', 'prcp', 'jptr_v40', 'id1', 'id1-res', 'id24res']
+        'neis', 'freedoom1', 'freedoom2','doom3do', 'tntr', 'pl2', 'prcp', 'jptr_v40', 'id1', 'id1-res', 'id24res','doomzero']
 
 # wads to search for and report if found
 REPORT_WADS = ['doom', 'sigil', 'sigil_shreds', 'sigil2',
@@ -49,7 +49,7 @@ REPORT_WADS = ['doom', 'sigil', 'sigil_shreds', 'sigil2',
                'nerveu', 'tntu', 'plutoniau', 'extras', 'perdgate',
                'hell2pay', 'neis', 'pl2', 'prcp', 'tntr', 'tnt2_beta6', 'jptr_v40',
                'freedoom1', 'freedoom2','doom3do',
-               'id1', 'id1-res', 'id24res']
+               'id1', 'id1-res', 'id24res','doomzero']
 
 # lists of lumps common to doom 1+2
 COMMON_LUMPS = [
@@ -80,7 +80,7 @@ WAD_LUMP_LISTS = {
     'sigil_shreds': ['music_sigil'],
     'sigil2': ['graphics_sigil2', 'music_sigil2', 'patches_sigil2', 'data_sigil2', 'flats_sigil2'],
     'id1': ['data_id1', 'flats_id1', 'graphics_id1', 'music_id1', 'patches_id1', 'sounds_id1', 'sprites_id1'],
-    'id1-res': ['data_id1-res'],
+    #'id1-res': ['data_id1-res'],
     'id24res': ['graphics_id24res'],
     # widescreen assets from unity ports
     'doomunity': ['graphics_doomunity'],
@@ -95,6 +95,7 @@ WAD_LUMP_LISTS = {
     'perdgate': ['graphics_perdgate', 'music_perdgate'],
     'hell2pay': ['graphics_hell2pay', 'patches_hell2pay', 'flats_hell2pay', 'music_hell2pay'],
     'neis': ['graphics_neis', 'patches_neis', 'flats_neis'],
+    'doomzero': ['graphics_doomzero', 'patches_doomzero', 'flats_doomzero', 'music_doomzero', 'sounds_doomzero','sprites_doomzero'],
     # "found secret" sound from unity port
     'extras': ['sounds_unity'],
     # add live recorded music from Doom's 3DO port
@@ -123,6 +124,7 @@ WAD_MAP_PREFIXES = {
     'tntr': 'TR_',
     'tnt2_beta6': 'T2_',
     'pl2': 'P2_',
+    'doomzero': 'DZ_',
     'prcp': 'PRCP_',
     'jptr_v40' : 'JPTR_'
 }

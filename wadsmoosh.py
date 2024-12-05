@@ -465,6 +465,8 @@ def get_eps(wads_found):
             eps += ['Plutonia 2']
         elif wadname == 'prcp' and 'plutonia' in wads_found:
             eps += ['Plutonia Revisited']
+        elif wadname == 'doomzero' in wads_found:
+            eps += ['Zero']
         elif wadname == 'hell2pay' and 'doom2' in wads_found:
             eps += ['Hell To Pay']
         elif wadname == 'perdgate' and 'doom2' in wads_found:
