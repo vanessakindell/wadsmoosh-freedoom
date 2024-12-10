@@ -1,2 +1,2 @@
 This file was created by WadSmoosh Plus:
-https://github.com/staticnation/wadsmoosh-plus
+https://github.com/vanessakindell/wadsmoosh-plus
