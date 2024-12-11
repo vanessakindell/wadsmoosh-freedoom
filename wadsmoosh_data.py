@@ -70,7 +70,7 @@ RES_FILES = [
     'mapinfo/tntr_levels.txt','mapinfo/pl2_levels.txt','mapinfo/prcp_levels.txt',
     'mapinfo/jptr_levels.txt',
     'menudef.txt', 'cvarinfo.txt', 'zscript.txt', 'DEHACKED.txt',
-    'zscript/wf_handler.zs', 'zscript/wf_music.zs', 'zscript/wf_sbar.id1.zs', 'zscript/wf_xbox.zs'
+    'zscript/wf_handler.zs', 'zscript/wf_sbar.id1.zs', 'zscript/wf_xbox.zs'
 ]
 
 # files within pk3 dir that will be removed before a new run
